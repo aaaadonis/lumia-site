@@ -7,14 +7,15 @@ function MenuItem({
 }) {
     return (
         <div
-            className={`menu-item ${menuIsOpen ? 'menu-item-on': ''}`}
+            className={`${menuIsOpen ? 'menu-item menu-item-on': ''}`}
             style={{
-              transition: `transform 500ms ease;`,
+              transition: `opacity 500ms ease;`,
               transitionDelay: `${menuIsOpen ? transitionDelay : 0}ms`
             }}
         >
             <span style={{
-                transform: `rotate(deg)`
+              transition: `opacity 500ms ease;`,
+              transitionDelay: `${menuIsOpen ? transitionDelay : 0}ms`
             }}>{page}</span>
         </div>
     );
