@@ -1,0 +1,14 @@
+.menu-item{
+    margin: 0 1%;
+    font-size: .5em;
+    margin-top: 2%;
+    opacity: 0;
+}
+
+.menu-item-on{
+    opacity: 1;
+    -webkit-transition: transform 500ms ease;
+    -moz-transition: transform 500ms ease;
+    -o-transition: transform 500ms ease;
+    transition: transform 500ms ease;
+}
