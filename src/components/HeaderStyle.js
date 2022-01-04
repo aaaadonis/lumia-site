@@ -15,6 +15,7 @@ const rotate = keyframes`
 export const Wrapper = styled.div`
     margin-top: 2vh;
     max-width: 100vw;
+    height: 18vh;
 `;
 
 export const Content = styled.div`
