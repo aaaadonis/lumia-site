@@ -1,9 +1,13 @@
-.menu-item{
-    margin: 0 1%;
-    font-size: .5em;
-    margin-top: 2%;
-    -webkit-transition: opacity 500ms ease;
-    -moz-transition: opacity 500ms ease;
-    -o-transition: opacity 500ms ease;
-    transition: opacity 500ms ease;
+.menu-item {
+  margin: 0 1%;
+  font-size: 0.5rem;
+  margin-top: 2%;
+  transition: opacity 1s ease-in;
+  opacity: 1;
+  width: 32px;
+}
+
+.menu-item-closed {
+  opacity: 0;
+  width: 0;
 }

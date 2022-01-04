@@ -25,7 +25,7 @@ const Button = ({pages}) => {
             <Content>
                 <ButtonMenu onClick={handleSetIsOpen} />
                 <Router>
-                {isOpen ? pages.map(([page], index) => (
+                {pages.map(([page], index) => (
                     
                     <MenuItem
                         key={page}
@@ -33,7 +33,7 @@ const Button = ({pages}) => {
                      menuIsOpen={isOpen}
                      transitionDelay={index * 75}
                     />
-                    )) : <ButtonMenuBlack />}
+                    ))}
                     <Routes>
                         <Route path="/About" element={<AboutMe />}/>
                         <Route path="/Contact" element={<Contact />}/>
