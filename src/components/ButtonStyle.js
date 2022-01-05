@@ -25,12 +25,12 @@ export const ButtonMenu = styled.button`
     margin-top: 2%;
     height: .8rem;
     width: .8rem;
-    border-radius: 50%;
+    border-radius: 100vh;
     background-color: transparent;
     border: 1px solid black;
     cursor: pointer;
     @media (max-width: 800px) {
-    border-radius: 50%;
+    border-radius: 100vh;
     }
 
 `

@@ -4,7 +4,7 @@
   margin-top: 2%;
   transition: opacity 1s ease-in;
   opacity: 1;
-  width: 2%;
+  width: 32px;
 }
 
 .menu-item-closed {
