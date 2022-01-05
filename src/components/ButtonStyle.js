@@ -13,16 +13,26 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    @media (max-width: 800px) {
+    margin-top: 120%;
+    }
+    @media (max-width: 1000px) {
+    margin-top: 80%;
+    }
 `;
 
 export const ButtonMenu = styled.button`
     margin-top: 2%;
     height: .8rem;
     width: .8rem;
-    border-radius: 100ch;
+    border-radius: 100vh;
     background-color: transparent;
     border: 1px solid black;
     cursor: pointer;
+    @media (max-width: 800px) {
+    border-radius: 100vh;
+    }
+
 `
 export const ButtonMenuBlack = styled.button`
     margin-top: 2%;
@@ -33,10 +43,4 @@ export const ButtonMenuBlack = styled.button`
     border: 1px solid black;
     cursor: pointer;
     display: none;
-`
-
-export const MenuItem = styled.div`
-    display: none;
-    font-size: 1em;
-    margin: 0 2%;
 `

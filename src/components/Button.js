@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import AboutMe from '../pages/AboutMe'
 import Contact from '../pages/Contact'
 import Personal from '../pages/Personal'
-import App from '../App'
+
 
 
 const Button = ({pages}) => {
