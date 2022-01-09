@@ -24,7 +24,7 @@ const Button = ({pages}) => {
         <Wrapper>
             <Content>
                 <ButtonMenu onClick={handleSetIsOpen} />
-                <Router>
+
                 {pages.map(([page], index) => (
                     <Link to={`/${page}`} className={isOpen ? "menu-item" : "menu-item-closed"}>
                     <MenuItem
@@ -39,7 +39,7 @@ const Button = ({pages}) => {
                         <Route path="/Contact" element={<Contact />}/>
                         <Route path="/Personal" element={<Personal />}/>
                     </Routes>
-                </Router>
+
             </Content>
         </Wrapper>
     )

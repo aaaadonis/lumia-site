@@ -5,7 +5,9 @@ import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
   return (
+    <Router>
     <div className="App">
+      
       <Header />
       <Card />
       <Button
@@ -18,7 +20,9 @@ function App() {
           ]
         } 
       />
+
     </div>
+      </Router>
   );
 }
 
