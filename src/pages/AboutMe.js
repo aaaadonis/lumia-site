@@ -1,10 +1,13 @@
 import React from 'react'
+import { Content, Text, Wrapper } from './AboutStyle'
 
 const AboutMe = () => {
     return (
-        <div>
-            
-        </div>
+        <Wrapper>
+            <Content>
+                <Text>Hello</Text>
+            </Content>
+        </Wrapper>
     )
 }
 
