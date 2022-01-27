@@ -1,44 +1,64 @@
-import React, { useState } from 'react'
-import {Data} from '../images/index.js'
-import BtnSlider from './BtnSlider.js';
-import { Content, ImgCard, Wrapper } from './CardStyle.js';
+import React, { useState } from "react";
+import { Data } from "../images/index.js";
+import BtnSlider from "./BtnSlider.js";
+import { Content, ImgCard, Text, Wrapper } from "./CardStyle.js";
+import "../index.css";
 
 const Card = () => {
-    const [slideIndex, setSlideIndex] = useState(1)
+  const [slideIndex, setSlideIndex] = useState(1);
+  const [hoverOff, setHover] = useState(false);
 
-    const nextSlide = () => {
-        if(slideIndex !== Data.length){
-            setSlideIndex(slideIndex + 1)
-        } 
-        else if (slideIndex === Data.length){
-            setSlideIndex(1)
-        }
+  const nextSlide = () => {
+    if (slideIndex !== Data.length) {
+      setSlideIndex(slideIndex + 1);
+    } else if (slideIndex === Data.length) {
+      setSlideIndex(1);
     }
+  };
 
-    const prevSlide = () => {
-        if(slideIndex !== 1){
-            setSlideIndex(slideIndex - 1)
-        }
-        else if (slideIndex === 1){
-            setSlideIndex(Data.length)
-        }
+  const prevSlide = () => {
+    if (slideIndex !== 1) {
+      setSlideIndex(slideIndex - 1);
+    } else if (slideIndex === 1) {
+      setSlideIndex(Data.length);
     }
+  };
 
+  const handleHover = () => {
+    setHover(!hoverOff);
+  };
 
-    return (
-        <Wrapper>
-            {Data.map((obj, ind) => {
-                return(
-                    <Content key={obj.id} className={slideIndex === ind + 1 ? "slide active-anim" : "slide"}>
-                        <ImgCard src={obj.image} alt='hello'/>
-                        <BtnSlider moveSlide={nextSlide} direction={"next"}/>
-                        <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
-                    </Content>
-                )
-            })}
+  const handleHoverOut = () => {
+    setHover(!hoverOff);
+  };
 
-        </Wrapper>
-    )
-}
+  return (
+    <Wrapper>
+      {Data.map((obj, ind) => {
+        return (
+          <Content
+            key={obj.id}
+            className={slideIndex === ind + 1 ? "slide active-anim" : "slide"}
+          >
+            <ImgCard
+              src={obj.image}
+              alt="hello"
+              onMouseOver={() => {
+                handleHover();
+              }}
+              onMouseOut={() => {
+                handleHoverOut();
+              }}
+              className={hoverOff ? "off" : "on"}
+            />
+            <Text className={hoverOff ? "on-text" : "off-text"}>{obj.descrip}</Text>
+            <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+          </Content>
+        );
+      })}
+    </Wrapper>
+  );
+};
 
-export default Card
+export default Card;
