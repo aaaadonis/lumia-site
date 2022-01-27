@@ -7,60 +7,49 @@ import {
   MenuWrapper,
   Photography,
 } from "./PressStyle";
-import "./press.css"
+import "./press.css";
 
 const Press = () => {
-  const [exhibitionOff, setExhibition] = useState(false);
-  const [photographyOff, setPhotography] = useState(false);
-  const [featuresOff, setFeatures] = useState(false);
+  const [sectionShowing, setSectionShowing] = useState("");
 
-  const handleExhibit = () => {
-    setExhibition(!exhibitionOff);
-    setPhotography(false);
-    setFeatures(false);
-  };
-
-  const handlePhotography = () => {
-    setPhotography(!photographyOff);
-    setExhibition(false);
-    setFeatures(false);
-  };
-
-  const handleFeatures = () => {
-    setFeatures(!featuresOff);
-    setExhibition(false);
-    setPhotography(false);
+  const handleMenuClick = (section) => {
+    if (sectionShowing === section) {
+      setSectionShowing("");
+    } else {
+      setSectionShowing(section);
+    }
   };
 
   return (
     <div>
       <Header />
-      <Content>
-        <MenuWrapper>
+      <Content
+        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+      >
+        <MenuWrapper style={{ flexGrow: 0 }}>
           <Exhibitions
-            onClick={() => {
-              handleExhibit();
-            }} className={exhibitionOff ? `on-exhib` : `off-exhib`}
+            onClick={() => handleMenuClick("exhibitions")}
+            className={
+              sectionShowing === "exhibitions" ? "on-exhib" : "off-exhib"
+            }
           >
             Exhibitions
           </Exhibitions>
-
           <Photography
-            onClick={() => {
-              handlePhotography();
-            }} className=""
+            onClick={() => handleMenuClick("photography")}
+            className=""
           >
             Photography
           </Photography>
-
-          <Features
-            onClick={() => {
-              handleFeatures();
-            }} className=""
-          >
+          <Features onClick={() => handleMenuClick("features")} className="">
             Features
           </Features>
         </MenuWrapper>
+        <div style={{ marginLeft: "1rem" }}>
+          {sectionShowing === "exhibitions" && <div>Exhibition section</div>}
+          {sectionShowing === "photography" && <div>Photography section</div>}
+          {sectionShowing === "features" && <div>Features section</div>}
+        </div>
       </Content>
     </div>
   );
