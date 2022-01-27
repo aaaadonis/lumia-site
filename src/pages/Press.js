@@ -40,7 +40,7 @@ const Press = () => {
           <Exhibitions
             onClick={() => {
               handleExhibit();
-            }} className={setExhibition ? `on-exhib` : `off-exhib`}
+            }} className={exhibitionOff ? `on-exhib` : `off-exhib`}
           >
             Exhibitions
           </Exhibitions>
