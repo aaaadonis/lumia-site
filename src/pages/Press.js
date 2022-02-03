@@ -4,63 +4,106 @@ import {
   Content,
   Exhibitions,
   Features,
+  Honors,
+  Interviews,
   MenuWrapper,
   Photography,
+  TextContent,
+  Logo,
+  Text
 } from "./PressStyle";
-import "./press.css"
+import "./press.css";
+import { ExhData } from "./pressdata/Exhibits";
+import { FeaData } from "./pressdata/Features";
+import { PhoData } from "./pressdata/Photography";
+
 
 const Press = () => {
-  const [exhibitionOff, setExhibition] = useState(false);
-  const [photographyOff, setPhotography] = useState(false);
-  const [featuresOff, setFeatures] = useState(false);
+  const [sectionShowing, setSectionShowing] = useState("");
 
-  const handleExhibit = () => {
-    setExhibition(!exhibitionOff);
-    setPhotography(false);
-    setFeatures(false);
-  };
-
-  const handlePhotography = () => {
-    setPhotography(!photographyOff);
-    setExhibition(false);
-    setFeatures(false);
-  };
-
-  const handleFeatures = () => {
-    setFeatures(!featuresOff);
-    setExhibition(false);
-    setPhotography(false);
+  const handleMenuClick = (section) => {
+    if (sectionShowing === section) {
+      setSectionShowing("");
+    } else {
+      setSectionShowing(section);
+    }
   };
 
   return (
     <div>
       <Header />
-      <Content>
-        <MenuWrapper>
+      <Content
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "",
+          marginTop: "0%",
+        }}
+      >
+        <MenuWrapper style={{ flexGrow: 0 }}>
           <Exhibitions
-            onClick={() => {
-              handleExhibit();
-            }} className={exhibitionOff ? `on-exhib` : `off-exhib`}
+            onClick={() => handleMenuClick("exhibitions")}
+            className=""
           >
             Exhibitions
           </Exhibitions>
-
           <Photography
-            onClick={() => {
-              handlePhotography();
-            }} className=""
+            onClick={() => handleMenuClick("photography")}
+            className=""
           >
             Photography
           </Photography>
-
-          <Features
-            onClick={() => {
-              handleFeatures();
-            }} className=""
-          >
+          <Features onClick={() => handleMenuClick("features")} className="">
             Features
           </Features>
+          <Interviews
+            onClick={() => handleMenuClick("interviews")}
+            className=""
+          >
+            Interviews
+          </Interviews>
+          <Honors onClick={() => handleMenuClick("honors")} className="">
+            Honors
+          </Honors>
         </MenuWrapper>
+        <div style={{ marginLeft: "6rem" }}>
+          {sectionShowing === "exhibitions" && (
+            <div>
+              {ExhData.map((obj, ind) => {
+                return (
+                  <TextContent key={obj.id}>
+                    <Logo src={obj.image} alt="hello" />
+                    <Text>{obj.descrip}</Text>
+                  </TextContent>
+                );
+              })}
+            </div>
+          )}
+          {sectionShowing === "photography" && (
+            <div>
+              {PhoData.map((obj, ind) => {
+                return (
+                  <TextContent key={obj.id}>
+                    <Logo src={obj.image} alt="hello" />
+                    <Text>{obj.descrip}</Text>
+                  </TextContent>
+                );
+              })}
+            </div>
+          )}
+          {sectionShowing === "features" && (
+            <div>
+              {FeaData.map((obj, ind) => {
+                return (
+                  <TextContent key={obj.id}>
+                    <Logo src={obj.image} alt="hello" />
+                    <Text>{obj.descrip}</Text>
+                  </TextContent>
+                );
+              })}
+            </div>
+          )}
+        </div>
       </Content>
     </div>
   );

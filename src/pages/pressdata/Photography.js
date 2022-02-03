@@ -1,14 +1,20 @@
-const Data = [
+const Images = {
+  imageOne: require("../../images/nylon.png"),
+  imageTwo: require("../../images/nylon.png"),
+  imageThree: require("../../images/nylon.png"),
+};
+
+const PhoData = [
   {
     id: 1,
     image: Images.imageOne,
-    descrip: "description1",
+    descrip: "2022. Interview Magazine, Achilles Ion Gabriel Is Serving Up a Surreal SS22 Collection for CAMPERLAB (Web)",
     isOn: true,
   },
   {
     id: 2,
     image: Images.imageTwo,
-    descrip: "description2",
+    descrip: "202description2",
     isOn: false,
   },
   {
@@ -19,4 +25,4 @@ const Data = [
   },
 ];
 
-export { Data };
+export { PhoData };

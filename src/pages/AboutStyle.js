@@ -1,37 +1,51 @@
 import styled from "styled-components";
 
-
 export const Wrapper = styled.div`
-    max-width: 100vw;
-    height: auto;
+  max-width: 100vw;
+  height: auto;
 `;
 
 export const Content = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 export const Text = styled.p`
   font-family: Helvetica;
-  font-size: 1em;
-  text-align: center;
-  padding: 0px 10%;
+  font-size: 0.8em;
+  padding: 0px 25%;
+  line-height: 30px;
+  margin: 30px auto;
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 500px;
-  height: auto;
-  display: inline-block;
-  position: absolute;
+  max-width: 800px;
+    text-align: center;
+    padding: 0px 8%;
+
 `;
 
+export const TextWrapperP = styled.div`
+  max-width: 800px;
+  margin: 10px auto;
+`;
 
 export const ImgMain = styled.img`
-    width: 25%;
-    height: auto;
-    @media (max-width: 800px) {
+  width: 25%;
+  height: auto;
+  @media (max-width: 800px) {
     width: 50%;
-    }  
-`
+  }
+`;
+
+export const Instagram = styled.img`
+  width: 2%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 2%;
+   @media (max-width: 800px) {
+    width: 5%;
+  }
+`;
