@@ -34,8 +34,8 @@ export const ButtonMenu = styled.button`
   cursor: pointer;
   border-collapse: separate;
   @media (max-width: 800px) {
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
   }
 `;
 export const ButtonMenuBlack = styled.button`
