@@ -25,14 +25,15 @@ export const Content = styled.div`
 `;
 
 export const ButtonMenu = styled.button`
-    margin-top: 2%;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 100%;
-    background-color: transparent;
-    border: 1.8px solid black;
-    cursor: pointer;
-`
+  margin-top: 2%;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 1.8px solid black;
+  cursor: pointer;
+  border-collapse: separate;
+`;
 export const ButtonMenuBlack = styled.button`
     margin-top: 2%;
     height: .8rem;
