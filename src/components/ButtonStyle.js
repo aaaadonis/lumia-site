@@ -28,7 +28,7 @@ export const ButtonMenu = styled.button`
   margin-top: 2%;
   height: 1rem;
   width: 1rem;
-  border-radius: 100%;
+  border-radius: 500px;
   background-color: transparent;
   border: 1.8px solid black;
   cursor: pointer;
