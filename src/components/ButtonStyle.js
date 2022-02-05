@@ -28,11 +28,15 @@ export const ButtonMenu = styled.button`
   margin-top: 2%;
   height: 1rem;
   width: 1rem;
-  border-radius: 500px;
+  border-radius: 100%;
   background-color: transparent;
   border: 1.8px solid black;
   cursor: pointer;
   border-collapse: separate;
+  @media (max-width: 800px) {
+    height: 25px;
+    width: 25px;
+  }
 `;
 export const ButtonMenuBlack = styled.button`
     margin-top: 2%;
