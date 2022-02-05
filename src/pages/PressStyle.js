@@ -21,7 +21,7 @@ export const Content = styled.div`
 export const Photography = styled.h1`
   font-family: Helvetica;
   font-size: 0.8em;
-  padding: 10px 8%;
+  padding: 0px 8%;
   color: #414141;
   cursor: pointer;
 `;
@@ -63,7 +63,11 @@ export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  margin-left: 13%;
+  margin-left: 100px;
+  margin-bottom: 1em;
+  @media (max-width: 800px) {
+    margin-left: 2%;
+  }
 `;
 
 export const Text = styled.div`
@@ -76,3 +80,17 @@ export const Logo = styled.img`
   width: 15%;
   height: auto;
 `;
+
+export const TitleText = styled.div`
+  font-size: 1.2em;
+  height: auto;
+  font-weight: bolder;
+`;
+
+export const TitleYear = styled.div`
+  font-size: 1.5em;
+  height: auto;
+  font-weight: bolder;
+  margin: 20px 0;
+`;
+

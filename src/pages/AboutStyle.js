@@ -35,9 +35,7 @@ export const TextWrapperP = styled.div`
 export const ImgMain = styled.img`
   width: 25%;
   height: auto;
-  @media (max-width: 800px) {
-    width: 50%;
-  }
+
 `;
 
 export const Instagram = styled.img`
@@ -45,7 +43,5 @@ export const Instagram = styled.img`
   height: auto;
   margin: 0 auto;
   margin-bottom: 2%;
-   @media (max-width: 800px) {
-    width: 5%;
-  }
+
 `;

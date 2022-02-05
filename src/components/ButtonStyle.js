@@ -6,9 +6,9 @@ export const Wrapper = styled.div`
   height: auto;
   position: relative;
   margin-top: 38%;
-  @media (max-width: 800px) {
-    top: 220px;
-  }
+  // @media (max-width: 800px) {
+  //   top: 220px;
+  // }
 `;
 
 export const Content = styled.div`
@@ -16,12 +16,12 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    @media (max-width: 800px) {
-    margin-top: 120%;
-    }
-    @media (max-width: 1000px) {
-    margin-top: 80%;
-    }
+    // @media (max-width: 800px) {
+    // margin-top: 120%;
+    // }
+    // @media (max-width: 1000px) {
+    // margin-top: 80%;
+    // }
 `;
 
 export const ButtonMenu = styled.button`
@@ -32,10 +32,6 @@ export const ButtonMenu = styled.button`
     background-color: transparent;
     border: 1.8px solid black;
     cursor: pointer;
-    @media (max-width: 800px) {
-    border-radius: 50%;
-    }
-
 `
 export const ButtonMenuBlack = styled.button`
     margin-top: 2%;

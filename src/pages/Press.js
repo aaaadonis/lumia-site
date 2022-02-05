@@ -10,12 +10,16 @@ import {
   Photography,
   TextContent,
   Logo,
-  Text
+  Text,
+  TitleText,
+  TitleYear,
 } from "./PressStyle";
 import "./press.css";
 import { ExhData } from "./pressdata/Exhibits";
 import { FeaData } from "./pressdata/Features";
 import { PhoData } from "./pressdata/Photography";
+import { IntData } from "./pressdata/Interviews"
+import { HonData } from "./pressdata/Honors"
 
 
 const Press = () => {
@@ -37,7 +41,7 @@ const Press = () => {
           display: "flex",
           flexDirection: "row",
           alignItems: "",
-          marginTop: "0%",
+          marginTop: "2%",
         }}
       >
         <MenuWrapper style={{ flexGrow: 0 }}>
@@ -72,7 +76,8 @@ const Press = () => {
               {ExhData.map((obj, ind) => {
                 return (
                   <TextContent key={obj.id}>
-                    <Logo src={obj.image} alt="hello" />
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : ""}
+                    <TitleText>{obj.alt}</TitleText>
                     <Text>{obj.descrip}</Text>
                   </TextContent>
                 );
@@ -84,7 +89,8 @@ const Press = () => {
               {PhoData.map((obj, ind) => {
                 return (
                   <TextContent key={obj.id}>
-                    <Logo src={obj.image} alt="hello" />
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : ""}
+                    <TitleText>{obj.alt}</TitleText>
                     <Text>{obj.descrip}</Text>
                   </TextContent>
                 );
@@ -96,7 +102,34 @@ const Press = () => {
               {FeaData.map((obj, ind) => {
                 return (
                   <TextContent key={obj.id}>
-                    <Logo src={obj.image} alt="hello" />
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : "" }
+                    <TitleText>{obj.alt}</TitleText>
+                    <Text>{obj.descrip}</Text>
+                  </TextContent>
+                );
+              })}
+            </div>
+          )}
+          {sectionShowing === "interviews" && (
+            <div>
+              {IntData.map((obj, ind) => {
+                return (
+                  <TextContent key={obj.id}>
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : ""}
+                    <TitleText>{obj.alt}</TitleText>
+                    <Text>{obj.descrip}</Text>
+                  </TextContent>
+                );
+              })}
+            </div>
+          )}
+          {sectionShowing === "honors" && (
+            <div>
+              {HonData.map((obj, ind) => {
+                return (
+                  <TextContent key={obj.id}>
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : ""}
+                    <TitleText>{obj.alt}</TitleText>
                     <Text>{obj.descrip}</Text>
                   </TextContent>
                 );

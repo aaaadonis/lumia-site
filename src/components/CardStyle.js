@@ -5,9 +5,9 @@ export const Wrapper = styled.div`
   height: auto;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 845px) {
-    margin-top: 20px;
-  }
+  // @media (max-width: 845px) {
+  //   margin-top: 20px;
+  // }
 `;
 
 export const Content = styled.div`
@@ -16,20 +16,20 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: row;
   overflow: hidden;
-  @media (max-width: 800px) {
-    margin-top: 25%;
-  }
-  @media (max-width: 1000px) {
-    margin-top: 10%;
-  }
+  // @media (max-width: 800px) {
+  //   margin-top: 25%;
+  // }
+  // @media (max-width: 1000px) {
+  //   margin-top: 10%;
+  // }
 `;
 
 export const ImgCard = styled.img`
   width: 30%;
   height: auto;
-  @media (max-width: 800px) {
-    width: 80%;
-  }
+  // @media (max-width: 800px) {
+  //   width: 80%;
+  // }
 `;
 export const Text = styled.p`
   font-family: Helvetica;
