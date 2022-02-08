@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Data } from "./pressdata/PersonalData";
 import BtnSlider from "../components/BtnSlider.js";
 import Header from "../components/Header";
+import Button from "../components/Button";
 import { Content, ImgCard, Text, Wrapper } from "./PersonalStyle.js";
 import "../index.css";
+
 
 const Personal = () => {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -63,6 +65,7 @@ const Personal = () => {
           );
         })}
       </Wrapper>
+      <Button pages={[["Personal"], ["About"], ["Press"]]} />
     </div>
   );
 };
