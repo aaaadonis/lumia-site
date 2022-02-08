@@ -12,3 +12,8 @@
   width: 0;
 }
 
+.off-item{
+  display: none;
+  transition: display .3s ease-in;
+}
+

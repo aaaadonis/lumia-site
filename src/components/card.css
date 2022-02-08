@@ -22,6 +22,7 @@
   cursor: pointer;
   margin: 0 -20px;
   opacity: 0;
+  display: hidden;
 }
 /* 
 @media (max-width: 845px) {

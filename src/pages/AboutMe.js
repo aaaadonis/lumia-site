@@ -40,28 +40,41 @@ const AboutMe = () => {
             className=""
           />
           <TextWrapperP>
-          <Text>
-            Lumia Nocito is an artist based in New York. After graduating from
-            The Dalton School, she is currently working on her BFA at The Cooper
-            Union For The Advancement of Science and Art. Her main medium is
-            photography, and Nocito was mentored by Petra Collins throughout her
-            teenage years. Her photo work has been featured in The Metropolitan
-            Museum of Art, Art Basel Miami, The Cooper Union School of Art, and
-            at The International Center of Photography.
-          </Text>
-          <Text>
-            Selected publications include Juxtapoz Magazine, Wonderland, WWD,
-            WGSN, Dazed, Paper Magazine, Garage Magazine, Elle Mexico, Complex,
-            WOMB Global Magazine, and Glamour Magazine.
-          </Text>
-          <Text>
-            Selected clients include Bloomberg Businessweek, Adidas, Netflix,
-            Converse, Diesel, Vice, Vogue, i-D Magazine, Galore Magazine, DROME
-            Magazine, Milk, Nu Mode Magazine, and IMG Models.
-          </Text>
-          </TextWrapperP>     
+            <Text>
+              Lumia Nocito (b. 1998) is an artist based in New York City. Her
+              main medium is photography. After graduating from The Dalton
+              School, she acquired her BFA from The Cooper Union For the
+              Advancement of Science and Art. Nocito was mentored by Petra
+              Collins throughout her teenage years. Lumia's work has been
+              exhibited in The Metropolitan Museum of Art, The International
+              Center of Photography, and internationally in galleries, such as
+              Showroom MAMA. Her work has been hand picked for shows by curators
+              including Hans Ulrich Obrist, reviewed by art critics including
+              Jerry Saltz, and featured in publications including Juxtapoz
+              Magazine. She is an official Guest Artist speaker at The
+              International Center of Photography and a board member of the CFDA
+              Awards Fashion Guild.
+            </Text>
+            <Text>
+              Nocito has also been interviewed by publications including New
+              York Magazine, Nylon Japan, Nike, Dazed, and i-D, and has modeled
+              for brands including Adidas, Bulgari, Nike, Converse, Marc Jacobs,
+              and publications including Allure, A Magazine, W Magazine, i-D,
+              Vogue Italia, and Nylon Japan.
+            </Text>
+            <Text>
+              Selected publications include Juxtapoz Magazine, Elle Mexico,
+              Wonderland, WWD, WGSN, Cultured Magazine, Flaunt, Dazed, Garage
+              Magazine, Vogue, and Glamour Magazine.
+            </Text>
+            <Text>
+              Selected clients include Bloomberg Businessweek, Adidas, Netflix,
+              Converse, Diesel, Vice, Vogue, Interview Magazine, i-D Magazine,
+              Galore Magazine, DROME Magazine, Milk, Nylon Japan, and IMG
+              Models.
+            </Text>
+          </TextWrapperP>
           <TextWrapper>
-
             <Text>For work enquiries please contact mgmt@lumianocito.com</Text>
             <a href="http://instagram.com/lumia.nocito" targert="_blank">
               <Instagram src={Insta} alt="hllo" />

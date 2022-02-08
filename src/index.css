@@ -17,21 +17,21 @@ code {
 
 .on{
   opacity: 1;
-  transition: opacity .6s ease-in;
+  transition: opacity .3s ease-in;
 }
 
 .off{
-  transition: opacity .6s ease-in;
+  transition: opacity .3s ease-in;
   opacity: 0;
 }
 
 .on-text{
   opacity: 1;
-  transition: opacity .4s ease-in;
+  transition: opacity .15s ease-in;
 }
 
 .off-text{
-  transition: opacity .4s ease-in;
+  transition: opacity .15s ease-in;
   opacity: 0;
 }
 
