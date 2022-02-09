@@ -7,7 +7,7 @@ import "../index.css";
 const Card = () => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [hoverOff, setHover] = useState(false);
-  const delay = 4000;
+  const delay = 3000;
 
   const nextSlide = () => {
     if (slideIndex !== Data.length) {
