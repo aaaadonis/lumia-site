@@ -24,6 +24,9 @@ export const Photography = styled.h1`
   padding: 0px 8%;
   color: #414141;
   cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 export const Exhibitions = styled.h1`
@@ -32,6 +35,9 @@ export const Exhibitions = styled.h1`
   padding: 0px 8%;
   color: #414141;
   cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 export const Features = styled.h1`
@@ -40,6 +46,9 @@ export const Features = styled.h1`
   padding: 0px 8%;
   color: #414141;
   cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 export const Interviews = styled.h1`
@@ -48,6 +57,9 @@ export const Interviews = styled.h1`
   padding: 0px 8%;
   color: #414141;
   cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 export const Honors = styled.h1`
@@ -56,6 +68,9 @@ export const Honors = styled.h1`
   padding: 0px 8%;
   color: #414141;
   cursor: pointer;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 
