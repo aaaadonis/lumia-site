@@ -74,6 +74,9 @@ export const Text = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 0.8em;
+  @media (max-width: 800px) {
+    font-size: .5em;
+  }
 `;
 
 export const Logo = styled.img`
@@ -85,6 +88,9 @@ export const TitleText = styled.div`
   font-size: 1.2em;
   height: auto;
   font-weight: bolder;
+  @media (max-width: 800px) {
+    font-size: .8em;
+  }
 `;
 
 export const TitleYear = styled.div`
@@ -92,5 +98,8 @@ export const TitleYear = styled.div`
   height: auto;
   font-weight: bolder;
   margin: 20px 0;
+  @media (max-width: 800px) {
+    font-size: 1em;
+  }
 `;
 

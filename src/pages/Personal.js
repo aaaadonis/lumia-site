@@ -70,10 +70,10 @@ const Personal = () => {
               <ImgCard
                 src={obj.image}
                 alt="hello"
-                onMouseOver={() => {
+                onClick={() => {
                   handleHover();
                 }}
-                onMouseOut={() => {
+                onClick={() => {
                   handleHoverOut();
                 }}
                 className={hoverOff ? "off" : "on"}
