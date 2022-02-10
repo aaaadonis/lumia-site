@@ -16,12 +16,17 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: row;
   overflow: hidden;
+  @media (max-width: 800px) {
+    margin-top: 5%;
+  }
 `;
 
 export const ImgCard = styled.img`
   width: 30%;
   height: auto;
-
+  @media (max-width: 800px) {
+    width: 80%;
+  }
 `;
 export const Text = styled.p`
   font-family: Helvetica;
