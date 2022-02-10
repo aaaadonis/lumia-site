@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   height: auto;
   margin-top: 38%;
   @media (max-width: 800px) {
-    top: 220px;
+    margin-top: 500px;
   }
 `;
 
@@ -33,7 +33,7 @@ export const ButtonMenu = styled.button`
   cursor: pointer;
   // border-collapse: separate;
   @media (max-width: 800px) {
-    height: 15px;
+    height: 25px;
     width: 5px;
   }
 `;
