@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   @media (max-width: 800px) {
-    margin-top: -20px;
+    margin-top: 0px;
   }
 `;
 
@@ -17,7 +17,6 @@ export const Content = styled.div`
   flex-direction: row;
   overflow: hidden;
   @media (max-width: 800px) {
-    margin-top: 5%;
   }
 `;
 
@@ -25,7 +24,7 @@ export const ImgCard = styled.img`
   width: 30%;
   height: auto;
   @media (max-width: 800px) {
-    width: 80%;
+    width: 85%;
   }
 `;
 export const Text = styled.p`
