@@ -17,3 +17,8 @@
   transition: display .3s ease-in;
 }
 
+  @media (max-width: 800px) {
+    .menu-item{
+      margin: 0 4%;
+    }
+  }
