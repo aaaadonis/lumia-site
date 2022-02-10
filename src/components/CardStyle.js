@@ -5,9 +5,9 @@ export const Wrapper = styled.div`
   height: auto;
   display: flex;
   justify-content: space-between;
-  // @media (max-width: 845px) {
-  //   margin-top: 20px;
-  // }
+  @media (max-width: 800px) {
+    margin-top: 20px;
+  }
 `;
 
 export const Content = styled.div`
