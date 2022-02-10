@@ -11,6 +11,9 @@ export const MenuWrapper = styled.div`
   position: fixed;
   margin-top: 10%;
   margin-left: 3%;
+  @media (max-width: 800px) {
+    margin-top: 7%;
+  }
 `;
 
 export const Content = styled.div`
