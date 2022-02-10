@@ -10,6 +10,8 @@ import "../index.css";
 const Personal = () => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [hoverOff, setHover] = useState(false);
+    const delay = 3500;
+
 
   const nextSlide = () => {
     if (slideIndex !== Data.length) {
@@ -34,6 +36,26 @@ const Personal = () => {
   const handleHoverOut = () => {
     setHover(!hoverOff);
   };
+
+      const timeoutRef = React.useRef(null);
+
+      function resetTimeout() {
+        if (timeoutRef.current) {
+          clearTimeout(timeoutRef.current);
+        }
+      }
+
+      React.useEffect(() => {
+        resetTimeout();
+        timeoutRef.current = setTimeout(
+          () => setSlideIndex(() => nextSlide()),
+          delay
+        );
+
+        return () => {
+          resetTimeout();
+        };
+      }, [slideIndex]);
 
   return (
     <div>
