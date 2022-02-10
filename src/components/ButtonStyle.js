@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
-  max-width: 100vw;
-  height: auto;
-
-  margin-top: 38%;
-  // @media (max-width: 800px) {
-  //   top: 220px;
-  // }
+  // max-width: 100vw;
+  // height: auto;
+  // position: relative;
+  // margin-top: 38%;
+  // // @media (max-width: 800px) {
+  // //   top: 220px;
+  // // }
 `;
 
 export const Content = styled.div`
