@@ -5,9 +5,9 @@ export const Wrapper = styled.div`
   max-width: 100vw;
   height: auto;
   margin-top: 38%;
-  // @media (max-width: 800px) {
-  //   top: 220px;
-  // }
+  @media (max-width: 800px) {
+    top: 220px;
+  }
 `;
 
 export const Content = styled.div`
@@ -31,9 +31,9 @@ export const ButtonMenu = styled.button`
   background-color: transparent;
   border: 1.8px solid black;
   cursor: pointer;
-  border-collapse: separate;
+  // border-collapse: separate;
   @media (max-width: 800px) {
-    height: 5px;
+    height: 15px;
     width: 5px;
   }
 `;
