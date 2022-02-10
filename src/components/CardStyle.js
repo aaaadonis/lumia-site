@@ -17,7 +17,7 @@ export const Content = styled.div`
   flex-direction: row;
   overflow: hidden;
   @media (max-width: 800px) {
-    margin-top: 0;
+    margin-top: 10px;
   }
 `;
 
