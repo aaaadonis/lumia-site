@@ -57,17 +57,17 @@ const Press = () => {
           >
             Photography
           </Photography>
-          <Features onClick={() => handleMenuClick("features")} className="">
-            Features
-          </Features>
           <Interviews
             onClick={() => handleMenuClick("interviews")}
             className=""
           >
             Interviews
           </Interviews>
+          <Features onClick={() => handleMenuClick("features")} className="">
+            Features
+          </Features>
           <Honors onClick={() => handleMenuClick("honors")} className="">
-            Honors
+            Honors & Awards
           </Honors>
         </MenuWrapper>
         <div style={{ marginLeft: "6rem" }}>
@@ -102,7 +102,7 @@ const Press = () => {
               {FeaData.map((obj, ind) => {
                 return (
                   <TextContent key={obj.id}>
-                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : "" }
+                    {obj.year ? <TitleYear>{obj.year}</TitleYear> : ""}
                     <TitleText>{obj.alt}</TitleText>
                     <Text>{obj.descrip}</Text>
                   </TextContent>
