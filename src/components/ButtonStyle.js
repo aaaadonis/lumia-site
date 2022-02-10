@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
-  // max-width: 100vw;
-  // height: auto;
-  // position: relative;
-  // margin-top: 38%;
-  // // @media (max-width: 800px) {
-  // //   top: 220px;
-  // // }
+  max-width: 100vw;
+  height: auto;
+  margin-top: 38%;
+  // @media (max-width: 800px) {
+  //   top: 220px;
+  // }
 `;
 
 export const Content = styled.div`
@@ -34,17 +33,7 @@ export const ButtonMenu = styled.button`
   cursor: pointer;
   border-collapse: separate;
   @media (max-width: 800px) {
-    height: 20px;
-    width: 20px;
+    height: 5px;
+    width: 5px;
   }
 `;
-export const ButtonMenuBlack = styled.button`
-    margin-top: 2%;
-    height: .8rem;
-    width: .8rem;
-    border-radius: 50%;
-    background-color: black;
-    border: 1px solid black;
-    cursor: pointer;
-    display: none;
-`
