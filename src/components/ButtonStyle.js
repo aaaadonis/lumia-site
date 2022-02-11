@@ -33,6 +33,7 @@ export const ButtonMenu = styled.button`
   cursor: pointer;
   // border-collapse: separate;
   @media (max-width: 800px) {
+    padding: 0px;
     height: 15px;
     width: 15px;
   }
