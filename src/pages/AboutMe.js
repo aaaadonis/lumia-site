@@ -73,13 +73,15 @@ const AboutMe = () => {
               Galore Magazine, DROME Magazine, Milk, Nylon Japan, and IMG
               Models.
             </Text>
+            <TextWrapper>
+              <Text>
+                For work enquiries please contact mgmt@lumianocito.com
+              </Text>
+              <a href="http://instagram.com/lumia.nocito" targert="_blank">
+                <Instagram src={Insta} alt="hllo" />
+              </a>
+            </TextWrapper>
           </TextWrapperP>
-          <TextWrapper>
-            <Text>For work enquiries please contact mgmt@lumianocito.com</Text>
-            <a href="http://instagram.com/lumia.nocito" targert="_blank">
-              <Instagram src={Insta} alt="hllo" />
-            </a>
-          </TextWrapper>
         </Content>
       </Wrapper>
     </div>

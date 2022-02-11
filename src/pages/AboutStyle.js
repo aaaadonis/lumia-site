@@ -14,7 +14,7 @@ export const Content = styled.div`
 
 export const Text = styled.p`
   font-family: Helvetica;
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 0px 25%;
   line-height: 30px;
   margin: 30px auto;
@@ -44,6 +44,6 @@ export const Instagram = styled.img`
   margin: 0 auto;
   margin-bottom: 5%;
   @media (max-width: 800px) {
-    width: 10%;
+    width: 85%;
   }
 `;

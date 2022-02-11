@@ -34,4 +34,5 @@ export const Text = styled.p`
   padding: 0px 8%;
   display: inline-block;
   position: absolute;
+  font-weight: bold;
 `;
