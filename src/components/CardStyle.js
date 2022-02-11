@@ -23,6 +23,7 @@ export const Content = styled.div`
 export const ImgCard = styled.img`
   width: 30%;
   height: auto;
+  padding: 0px;
   @media (max-width: 800px) {
     width: 85%;
   }
@@ -31,7 +32,7 @@ export const Text = styled.p`
   font-family: Helvetica;
   font-size: 0.8em;
   text-align: center;
-  padding: 0px 8%;
+  padding: 0px;
   display: inline-block;
   position: absolute;
   font-weight: bold;
