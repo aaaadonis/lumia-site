@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   max-width: 100vw;
   height: auto;
-  display: flex;
-  justify-content: space-between;
   @media (max-width: 800px) {
     margin-top: 0px;
   }
@@ -14,7 +12,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   overflow: hidden;
   @media (max-width: 800px) {
   }

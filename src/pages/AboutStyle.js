@@ -44,6 +44,6 @@ export const Instagram = styled.img`
   margin: 0 auto;
   margin-bottom: 5%;
   @media (max-width: 800px) {
-    width: 35%;
+    width: 17%;
   }
 `;
