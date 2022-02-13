@@ -62,12 +62,12 @@ const AboutMe = () => {
               and publications including Allure, A Magazine, W Magazine, i-D,
               Vogue Italia, and Nylon Japan.
             </Text>
-            <Text>
+            <Text className="ventures">
               Selected publications include Juxtapoz Magazine, Elle Mexico,
               Wonderland, WWD, WGSN, Cultured Magazine, Flaunt, Dazed, Garage
               Magazine, Vogue, and Glamour Magazine.
             </Text>
-            <Text>
+            <Text className="ventures">
               Selected clients include Bloomberg Businessweek, Adidas, Netflix,
               Converse, Diesel, Vice, Vogue, Interview Magazine, i-D Magazine,
               Galore Magazine, DROME Magazine, Milk, Nylon Japan, and IMG

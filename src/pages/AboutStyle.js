@@ -23,10 +23,8 @@ export const Text = styled.p`
 `;
 
 export const TextWrapper = styled.div`
-  // width: 900px;
-  //   text-align: center;
-  //   padding: 0px 8%;
-
+  font-size: 0.8em;
+  font-weight: lighter;
 `;
 
 export const TextWrapperP = styled.div`

@@ -34,3 +34,8 @@ code {
   transition: opacity .15s ease-in;
   opacity: 0;
 }
+
+.ventures{
+  font-weight: lighter;
+  font-style: italic;
+}
