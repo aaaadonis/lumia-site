@@ -73,7 +73,7 @@ const Card = () => {
               onMouseOut={() => {
                 handleHoverOut();
               }}
-              className={hoverOff ? "off" : "on"}
+              
             />
             <Text className={hoverOff ? "on-text" : "off-text"}>{obj.descrip}</Text>
             <BtnSlider moveSlide={nextSlide} direction={"next"} />
