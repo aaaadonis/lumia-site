@@ -31,7 +31,8 @@ export const Text = styled.p`
   font-size: 0.8em;
   text-align: center;
   padding: 0px;
-  // margin-top: 38%; 
+  margin-top: 38%;
+  margin-right: 17%;
   display: inline-block;
   position: absolute;
   font-weight: bold;

@@ -30,6 +30,10 @@ export const TextWrapper = styled.div`
 export const TextWrapperP = styled.div`
   max-width: 800px;
   margin: 10px auto;
+  text-align: center;
+  @media (max-width: 800px) {
+    width: 800px;
+  }
 `;
 
 export const ImgMain = styled.img`
