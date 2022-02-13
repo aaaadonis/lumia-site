@@ -67,15 +67,15 @@ const Card = () => {
             <ImgCard
               src={obj.image}
               alt="hello"
-              onClick={() => {
+              onMouseEnter={() => {
                 handleHover();
               }}
-              onClick={() => {
+              onMouseOut={() => {
                 handleHoverOut();
               }}
-              // className={hoverOff ? "off" : "on"}
+              className={hoverOff ? "off" : "on"}
             />
-            <Text >{obj.descrip}</Text>
+            <Text className={hoverOff ? "on-text" : "off-text"}>{obj.descrip}</Text>
             <BtnSlider moveSlide={nextSlide} direction={"next"} />
             <BtnSlider moveSlide={prevSlide} direction={"prev"} />
           </Content>

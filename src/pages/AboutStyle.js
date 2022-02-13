@@ -14,21 +14,23 @@ export const Content = styled.div`
 
 export const Text = styled.p`
   font-family: Helvetica;
+  text-align: center;
+  width: 600px;
   font-size: 1em;
-  padding: 0px 25%;
   line-height: 30px;
   margin: 30px auto;
+  overflow: hidden;
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 800px;
-    text-align: center;
-    padding: 0px 8%;
+  // width: 900px;
+  //   text-align: center;
+  //   padding: 0px 8%;
 
 `;
 
 export const TextWrapperP = styled.div`
-  max-width: 800px;
+  width: 900px;
   margin: 10px auto;
   text-align: center;
   @media (max-width: 800px) {
