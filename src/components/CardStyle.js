@@ -38,6 +38,6 @@ export const Text = styled.p`
   font-weight: bold;
   @media (max-width: 800px) {
     margin-top: 53%;
-    margin-right: 35%;
+    margin-right: 55%;
   }
 `;
