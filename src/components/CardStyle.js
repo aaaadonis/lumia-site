@@ -37,7 +37,7 @@ export const Text = styled.p`
   position: absolute;
   font-weight: bold;
   @media (max-width: 800px) {
-    margin-top: 38%;
-    margin-right: 17%;
+    margin-top: 48%;
+    margin-right: 25%;
   }
 `;
