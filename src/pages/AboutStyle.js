@@ -37,7 +37,7 @@ export const TextWrapperP = styled.div`
   text-align: center;
   overflow: hidden;
   @media (max-width: 800px) {
-    max-width: 800px;
+    max-width: 600px;
   }
 `;
 
@@ -53,6 +53,6 @@ export const Instagram = styled.img`
   margin: 0 auto;
   margin-bottom: 5%;
   @media (max-width: 800px) {
-    width: 13%;
+    width: 10%;
   }
 `;
