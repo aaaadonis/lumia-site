@@ -32,7 +32,7 @@ export const TextWrapperP = styled.div`
   margin: 10px auto;
   text-align: center;
   @media (max-width: 800px) {
-    width: 800px;
+    max-width: 800px;
   }
 `;
 
