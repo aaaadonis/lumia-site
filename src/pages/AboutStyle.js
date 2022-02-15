@@ -15,7 +15,7 @@ export const Content = styled.div`
 export const Text = styled.p`
   font-family: Helvetica;
   text-align: center;
-  width: 600px;
+  // width: 600px;
   font-size: 1em;
   line-height: 30px;
   margin: 30px auto;
