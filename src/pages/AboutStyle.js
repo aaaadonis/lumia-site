@@ -20,6 +20,9 @@ export const Text = styled.p`
   line-height: 30px;
   margin: 30px auto;
   overflow: hidden;
+  @media (max-width: 800px) {
+    font-size: 0.5em;
+  }
 `;
 
 export const TextWrapper = styled.div`
