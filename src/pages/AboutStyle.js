@@ -22,7 +22,7 @@ export const Text = styled.p`
   overflow: hidden;
   @media (max-width: 800px) {
     font-size: 0.5em;
-    width: 300px;
+    width: 200px;
   }
 `;
 
@@ -35,7 +35,6 @@ export const TextWrapperP = styled.div`
   width: 900px;
   margin: 10px auto;
   text-align: center;
-  overflow: hidden;
   @media (max-width: 800px) {
     width: 200px;
   }
