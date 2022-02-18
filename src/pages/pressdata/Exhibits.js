@@ -1,10 +1,3 @@
-const Images = {
-    imageOne: require('../../images/nylon.png'),
-    imageTwo: require('../../images/nylon.png'),
-    imageThree: require('../../images/nylon.png'),
-}
-
-
 const ExhData = [
   {
     id: 1,

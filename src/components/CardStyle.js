@@ -19,8 +19,10 @@ export const Content = styled.div`
 `;
 
 export const ImgCard = styled.img`
+  object-fit: cover;
+  text-align: center;
   width: 30%;
-  height: auto;
+  max-height: 1500px;
   padding: 0px;
   @media (max-width: 800px) {
     width: 85%;
@@ -31,13 +33,12 @@ export const Text = styled.p`
   font-size: 0.8em;
   text-align: center;
   padding: 0px;
-  margin-top: 38%;
-  margin-right: 17%;
+  // margin-top: 38%;
+  // margin-right: 17%;
   display: inline-block;
-  position: absolute;
   font-weight: bold;
   @media (max-width: 800px) {
-    margin-top: 53%;
-    margin-right: 55%;
+    // margin-top: 53%;
+    // margin-right: 55%;
   }
 `;

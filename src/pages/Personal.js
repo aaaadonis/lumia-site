@@ -77,9 +77,6 @@ const Personal = () => {
                   handleHoverOut();
                 }}
               />
-              <Text className={hoverOff ? "on-text" : "off-text"}>
-                {obj.descrip}
-              </Text>
               <BtnSlider moveSlide={nextSlide} direction={"next"} />
               <BtnSlider moveSlide={prevSlide} direction={"prev"} />
             </Content>

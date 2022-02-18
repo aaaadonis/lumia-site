@@ -1,9 +1,3 @@
-const Images = {
-  imageOne: require("../../images/nylon.png"),
-  imageTwo: require("../../images/nylon.png"),
-  imageThree: require("../../images/nylon.png"),
-};
-
 const FeaData = [
   {
     id: 1,

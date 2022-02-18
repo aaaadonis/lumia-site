@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Data } from "../images/index.js";
+import { Data } from "../images/HomeData.js";
 import BtnSlider from "./BtnSlider.js";
 import { Content, ImgCard, Text, Wrapper } from "./CardStyle.js";
 import "../index.css";
