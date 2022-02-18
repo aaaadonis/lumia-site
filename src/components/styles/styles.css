@@ -5,7 +5,7 @@
   transition: opacity 1s ease-in;
   opacity: 1;
   color: black;
-  
+  bottom: 0;
 }
 
 .menu-item-closed {
