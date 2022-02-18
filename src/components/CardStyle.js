@@ -36,7 +36,6 @@ export const Text = styled.p`
   // margin-top: 38%;
   // margin-right: 17%;
   display: inline-block;
-  font-weight: bold;
   @media (max-width: 800px) {
     // margin-top: 53%;
     // margin-right: 55%;

@@ -18,7 +18,7 @@ const Images = {
   imageSeventeen: require("./Portfolio-17.jpeg"),
   imageEighteen: require("./Portfolio-18.jpg"),
   imageNineteen: require("./Portfolio-19.jpg"),
-  imageTwenty: require("./Portfolio-20.tiff"),
+  imageTwenty: require("./Portfolio-20.png"),
   imageTwentyone: require("./Portfolio-21.jpg"),
 };
 

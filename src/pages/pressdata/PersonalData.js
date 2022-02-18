@@ -1,5 +1,5 @@
 const Images = {
-  imageOne: require("./personal/PersonalPortfolio-01.tiff"),
+  imageOne: require("./personal/PersonalPortfolio-01.png"),
   imageTwo: require("./personal/PersonalPortfolio-02.png"),
   imageThree: require("./personal/PersonalPortfolio-03.png"),
   imageFour: require("./personal/PersonalPortfolio-04.png"),
@@ -11,7 +11,7 @@ const Images = {
   imageTen: require("./personal/PersonalPortfolio-10.jpeg"),
   imageEleven: require("./personal/PersonalPortfolio-11.png"),
   imageTwelve: require("./personal/PersonalPortfolio-12.png"),
-  imageThirteen: require("./personal/PersonalPortfolio-13.tiff"),
+  imageThirteen: require("./personal/PersonalPortfolio-13.png"),
   imageFourteen: require("./personal/PersonalPortfolio-14.png"),
   imageFifteen: require("./personal/PersonalPortfolio-15.png"),
   imageSixteen: require("./personal/PersonalPortfolio-16.png"),
