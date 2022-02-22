@@ -28,7 +28,7 @@ export const ImgCard = styled.img`
   max-height: 465px;
   padding: 0px;
   @media (max-width: 800px) {
-    width: 68%;
+    width: auto;
   }
 `;
 export const Text = styled.p`
