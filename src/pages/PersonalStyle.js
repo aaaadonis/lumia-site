@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  max-width: 100vw;
+  margin: 0 auto;
+  min-width: 100vw;
   height: auto;
   @media (max-width: 800px) {
     margin-top: 0px;
@@ -9,6 +10,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+  min-width: 100vw;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,25 +22,25 @@ export const Content = styled.div`
 `;
 
 export const ImgCard = styled.img`
+  object-fit: contain;
   width: 30%;
-  height: auto;
+  min-height: 465px;
+  max-height: 465px;
   padding: 0px;
   @media (max-width: 800px) {
-    width: 85%;
+    width: 68%;
   }
 `;
 export const Text = styled.p`
+  align-self: center;
   font-family: Helvetica;
   font-size: 0.8em;
   text-align: center;
   padding: 0px;
-  margin-top: 38%;
-  margin-right: 17%;
+  // margin-right: 17%;
   display: inline-block;
-  position: absolute;
-  font-weight: bold;
   @media (max-width: 800px) {
-    margin-top: 53%;
-    margin-right: 55%;
+    // margin-top: 5%;
+    // margin-right: 55%;
   }
 `;

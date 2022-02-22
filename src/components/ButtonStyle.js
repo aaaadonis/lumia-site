@@ -2,25 +2,27 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
+  bottom: 0;
   max-width: 100vw;
   height: auto;
-  // margin-top: 38%;
-  // @media (max-width: 800px) {
-  //   margin-top: 115%;
-  // }
+  margin-top: 38%;
+  @media (max-width: 800px) {
+    margin-top: 115%;
+  }
 `;
 
 export const Content = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    // @media (max-width: 800px) {
-    // margin-top: 120%;
-    // }
-    // @media (max-width: 1000px) {
-    // margin-top: 80%;
-    // }
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  // @media (max-width: 800px) {
+  // margin-top: 120%;
+  // }
+  // @media (max-width: 1000px) {
+  // margin-top: 80%;
+  // }
 `;
 
 export const ButtonMenu = styled.button`

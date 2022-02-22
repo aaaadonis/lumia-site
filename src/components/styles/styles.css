@@ -16,6 +16,7 @@
 .off-item{
   display: none;
   transition: display .3s ease-in;
+  
 }
 
   @media (max-width: 800px) {
