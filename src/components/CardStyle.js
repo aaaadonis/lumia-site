@@ -28,6 +28,8 @@ export const ImgCard = styled.img`
   max-height: 465px;
   padding: 0px;
   @media (max-width: 800px) {
+    min-height: 400px;
+    max-height: 400px;
     object-fit: contain;
     width: 68%;
   }
