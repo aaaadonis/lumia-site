@@ -24,8 +24,8 @@ export const Content = styled.div`
 export const ImgCard = styled.img`
   // object-fit: contain;
   width: auto;
-  min-height: 465px;
-  max-height: 465px;
+  min-height: 455px;
+  max-height: 455px;
   padding: 0px;
   @media (max-width: 800px) {
     min-height: 400px;
