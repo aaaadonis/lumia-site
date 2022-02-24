@@ -18,18 +18,25 @@ import "./press.css";
 import { ExhData } from "./pressdata/Exhibits";
 import { FeaData } from "./pressdata/Features";
 import { PhoData } from "./pressdata/Photography";
-import { IntData } from "./pressdata/Interviews"
-import { HonData } from "./pressdata/Honors"
-
+import { IntData } from "./pressdata/Interviews";
+import { HonData } from "./pressdata/Honors";
 
 const Press = () => {
   const [sectionShowing, setSectionShowing] = useState("");
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   const handleMenuClick = (section) => {
     if (sectionShowing === section) {
       setSectionShowing("");
     } else {
-      setSectionShowing(section);
+      setSectionShowing(section)
+      scrollToTop();
     }
   };
 
