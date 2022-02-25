@@ -36,7 +36,7 @@ export const ImgCard = styled.img`
 `;
 export const Text = styled.p`
   align-self: center;
-  font-family: new-order, sans-serif;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   text-align: center;
   padding: 0px;
