@@ -80,6 +80,7 @@ export const Honors = styled.h1`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
+  font-family: gopher, sans-serif;
   margin-top: 5px;
   margin-left: 100px;
   margin-bottom: 1em;

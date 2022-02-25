@@ -13,7 +13,7 @@ export const Content = styled.div`
 `;
 
 export const Text = styled.p`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   text-align: center;
   width: 600px;
   font-size: 1em;
