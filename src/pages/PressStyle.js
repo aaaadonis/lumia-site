@@ -22,7 +22,7 @@ export const Content = styled.div`
 `;
 
 export const Photography = styled.h1`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   padding: 0px 8%;
   color: #414141;
@@ -33,7 +33,7 @@ export const Photography = styled.h1`
 `;
 
 export const Exhibitions = styled.h1`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   padding: 0px 8%;
   color: #414141;
@@ -44,7 +44,7 @@ export const Exhibitions = styled.h1`
 `;
 
 export const Features = styled.h1`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   padding: 0px 8%;
   color: #414141;
@@ -55,7 +55,7 @@ export const Features = styled.h1`
 `;
 
 export const Interviews = styled.h1`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   padding: 0px 8%;
   color: #414141;
@@ -66,7 +66,7 @@ export const Interviews = styled.h1`
 `;
 
 export const Honors = styled.h1`
-  font-family: Helvetica;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   padding: 0px 8%;
   color: #414141;

@@ -62,7 +62,7 @@ const Card = () => {
         return (
           <Content
             key={obj.id}
-            className={slideIndex === ind + 1 ? "slide active-anim" : "slide"}
+            className={slideIndex === ind + 1 ? "slide" : "slide"}
           >
             <ImgCard
               src={obj.image}
