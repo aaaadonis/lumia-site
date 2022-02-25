@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   bottom: 0;
   max-width: 100vw;
   height: auto;
-  margin-top: 39%;
+  margin-top: 38%;
   @media (max-width: 800px) {
     margin-top: 115%;
   }
@@ -26,7 +26,7 @@ export const Content = styled.div`
 `;
 
 export const ButtonMenu = styled.button`
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   bottom: 0;
   position: fixed;
   height: 1rem;
