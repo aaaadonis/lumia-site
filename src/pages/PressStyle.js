@@ -80,7 +80,7 @@ export const Honors = styled.h1`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 2%;
+  margin-top: 5px;
   margin-left: 100px;
   margin-bottom: 1em;
   @media (max-width: 800px) {
