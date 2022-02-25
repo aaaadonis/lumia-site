@@ -80,7 +80,6 @@ export const Honors = styled.h1`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  font-family: gopher, sans-serif;
   margin-top: 5px;
   margin-left: 100px;
   margin-bottom: 1em;
@@ -92,9 +91,10 @@ export const TextContent = styled.div`
 export const Text = styled.div`
   display: flex;
   flex-direction: column;
+  font-family: gopher, sans-serif;
   font-size: 0.8em;
   @media (max-width: 800px) {
-    font-size: .5em;
+    font-size: 0.5em;
   }
 `;
 
@@ -107,8 +107,9 @@ export const TitleText = styled.div`
   font-size: 1.2em;
   height: auto;
   font-weight: bolder;
+  font-family: gopher, sans-serif;
   @media (max-width: 800px) {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 `;
 
@@ -116,6 +117,7 @@ export const TitleYear = styled.div`
   font-size: 1.5em;
   height: auto;
   font-weight: bolder;
+  font-family: gopher, sans-serif;
   margin: 20px 0;
   @media (max-width: 800px) {
     font-size: 1em;
