@@ -87,11 +87,11 @@ const Card = () => {
               {obj.descrip}
             </Text>
             <BtnSlider
-              moveSlide={isMobile ? "off" : nextSlide}
+              moveSlide={!isMobile ? nextSlide : "off"}
               direction={"next"}
             />
             <BtnSlider
-              moveSlide={isMobile ? "off" : prevSlide}
+              moveSlide={!isMobile ? prevSlide : "off"}
               direction={"prev"}
             />
           </Content>
