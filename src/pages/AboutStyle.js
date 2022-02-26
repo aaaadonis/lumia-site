@@ -29,7 +29,7 @@ export const Text = styled.p`
 
 export const TextWrapper = styled.div`
   font-family: gopher, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 0.8em;
   font-weight: lighter;
