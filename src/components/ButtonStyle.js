@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   bottom: 0;
   max-width: 100vw;
   height: auto;
-  margin-top: 39%;
+  margin-top: 200px;
   @media (max-width: 800px) {
     margin-top: 115%;
   }
