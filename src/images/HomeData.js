@@ -7,7 +7,7 @@ const Images = {
   imageSix: require("./Portfolio-06.jpeg"),
   imageSeven: require("./Portfolio-07.jpeg"),
   imageEight: require("./Portfolio-08.jpg"), 
-  imageNine: require("./Portfolio-09.jpeg"),
+  imageNine: require("./Portfolio-09.png"),
   imageTen: require("./Portfolio-10.jpeg"), 
   imageEleven: require("./Portfolio-11.jpeg"),
   imageTwelve: require("./Portfolio-12.jpg"),
