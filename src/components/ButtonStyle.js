@@ -1,18 +1,12 @@
 import styled from "styled-components";
 
-
 export const Wrapper = styled.div`
-  bottom: 0;
-  max-width: 100vw;
-  height: auto;
-  margin-top: 39%;
-  @media (max-width: 800px) {
-    margin-top: 115%;
-  }
+  position: fixed;
+  width: 100vw;
+  bottom: 15px;
 `;
 
 export const Content = styled.div`
-  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +14,6 @@ export const Content = styled.div`
 `;
 
 export const ButtonMenu = styled.button`
-  margin-bottom: 2%;
-  bottom: 0;
-  position: fixed;
   height: 1rem;
   width: 1rem;
   border-radius: 100%;
