@@ -17,21 +17,16 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  @media (max-width: 800px) {
-  }
 `;
 
 export const ImgCard = styled.img`
-  // object-fit: contain;
   width: auto;
-  min-height: 455px;
-  max-height: 455px;
+  height: 455px;
   padding: 0px;
   @media (max-width: 800px) {
-    min-height: 400px;
-    max-height: 400px;
+    height: 400px;
     object-fit: contain;
-    width: 68%;
+    width: 78%;
   }
 `;
 export const Text = styled.p`
@@ -40,10 +35,5 @@ export const Text = styled.p`
   font-size: 0.8em;
   text-align: center;
   padding: 0px;
-  // margin-right: 17%;
   display: inline-block;
-  @media (max-width: 800px) {
-    // margin-top: 53%;
-    // margin-right: 55%;
-  }
 `;
