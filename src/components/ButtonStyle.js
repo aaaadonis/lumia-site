@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: fixed;
   width: 100vw;
-  bottom: 15px;
+  bottom: 35px;
 `;
 
 export const Content = styled.div`
