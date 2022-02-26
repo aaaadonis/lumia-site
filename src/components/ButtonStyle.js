@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   bottom: 0;
   max-width: 100vw;
   height: auto;
-  margin-top: 38%;
+  margin-top: 37%;
   @media (max-width: 800px) {
     margin-top: 115%;
   }
@@ -17,12 +17,6 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  // @media (max-width: 800px) {
-  // margin-top: 120%;
-  // }
-  // @media (max-width: 1000px) {
-  // margin-top: 80%;
-  // }
 `;
 
 export const ButtonMenu = styled.button`
@@ -35,7 +29,6 @@ export const ButtonMenu = styled.button`
   background-color: transparent;
   border: 1.8px solid black;
   cursor: pointer;
-  // border-collapse: separate;
   @media (max-width: 800px) {
     bottom: 25px;
     margin-bottom: 4%;

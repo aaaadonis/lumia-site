@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { isMobile } from "react-device-detect";
 import { Data } from "../images/HomeData.js";
 import BtnSlider from "./BtnSlider.js";
 import { Content, ImgCard, Text, Wrapper } from "./CardStyle.js";
@@ -67,17 +68,32 @@ const Card = () => {
             <ImgCard
               src={obj.image}
               alt="hello"
-              onMouseEnter={() => {
-                handleHover();
-              }}
-              onMouseOut={() => {
-                handleHoverOut();
-              }}
-              
+              onMouseEnter={
+                isMobile
+                  ? ""
+                  : () => {
+                      handleHover();
+                    }
+              }
+              onMouseOut={
+                isMobile
+                  ? ""
+                  : () => {
+                      handleHoverOut();
+                    }
+              }
             />
-            <Text className={hoverOff ? "on-text" : "off-text"}>{obj.descrip}</Text>
-            <BtnSlider moveSlide={nextSlide} direction={"next"} />
-            <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+            <Text className={hoverOff ? "on-text" : "off-text"}>
+              {obj.descrip}
+            </Text>
+            <BtnSlider
+              moveSlide={isMobile ? "off" : nextSlide}
+              direction={"next"}
+            />
+            <BtnSlider
+              moveSlide={isMobile ? "off" : prevSlide}
+              direction={"prev"}
+            />
           </Content>
         );
       })}

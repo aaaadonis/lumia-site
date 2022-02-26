@@ -16,12 +16,13 @@ export const Text = styled.p`
   font-family: gopher, sans-serif;
   text-align: center;
   width: 600px;
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 30px;
   margin: 30px auto;
   overflow: hidden;
   @media (max-width: 800px) {
-    font-size: 0.5em;
+    line-height: 15px;
+    font-size: 0.7em;
     width: 250px;
   }
 `;
