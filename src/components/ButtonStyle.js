@@ -22,8 +22,8 @@ export const ButtonMenu = styled.button`
   border: 1.8px solid black;
   cursor: pointer;
   @media (max-width: 800px) {
-    bottom: 25px;
-    margin-bottom: 4%;
+    // bottom: 25px;
+    // margin-bottom: 4%;
     padding: 0px;
     height: 15px;
     width: 15px;
