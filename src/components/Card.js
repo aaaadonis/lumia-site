@@ -87,16 +87,18 @@ const Card = () => {
             <Text className={hoverOff ? "on-text" : "off-text"}>
               {obj.descrip}
             </Text>
+            { !isMobile ? 
             <BtnSlider
             className={isMobile ? "off" : ""}
               moveSlide={!isMobile ? nextSlide : "off"}
               direction={"next"}
-            />
+            /> : ""}
+            {!isMobile ?
             <BtnSlider
             className={isMobile ? "off" : ""}
               moveSlide={!isMobile ? prevSlide : "off"}
               direction={"prev"}
-            />
+            /> : ""}
           </Content>
         );
       })}
