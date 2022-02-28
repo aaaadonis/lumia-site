@@ -9,7 +9,6 @@ import {
   MenuWrapper,
   Photography,
   TextContent,
-  Logo,
   Text,
   TitleText,
   TitleYear,
@@ -20,15 +19,16 @@ import { FeaData } from "./pressdata/Features";
 import { PhoData } from "./pressdata/Photography";
 import { IntData } from "./pressdata/Interviews";
 import { HonData } from "./pressdata/Honors";
+import Button from "../components/Button";
 
 const Press = () => {
   const [sectionShowing, setSectionShowing] = useState("");
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    // window.scrollTo({
+    //   top: 0,
+    //   behavior: "smooth",
+    // });
   };
 
   const handleMenuClick = (section) => {
@@ -145,7 +145,7 @@ const Press = () => {
           )}
         </div>
       </Content>
-
+      {/* <Button pages={[["Home"], ["Personal"], ["About"]]} /> */}
     </div>
   );
 };

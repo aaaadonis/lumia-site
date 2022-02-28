@@ -8,9 +8,6 @@ export const Wrapper = styled.div`
   @media screen and (min-width: 1025px) and (max-width: 1280px) {
     bottom: 70px;
   }
-  @media (max-width: 800px) {
-    bottom: 60px;
-  }
 `;
 
 export const Content = styled.div`
