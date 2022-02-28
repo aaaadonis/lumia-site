@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Button from "../components/Button";
 import { Content, ImgCard, Text, Wrapper } from "./PersonalStyle.js";
 import "../index.css";
+import { isMobile } from "react-device-detect";
 
 
 const Personal = () => {
@@ -78,8 +79,24 @@ const Personal = () => {
                 }}
                 loading="lazy"
               />
-              <BtnSlider moveSlide={nextSlide} direction={"next"} />
-              <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+              {!isMobile ? (
+                <BtnSlider
+                  className={isMobile ? "off" : ""}
+                  moveSlide={!isMobile ? nextSlide : "off"}
+                  direction={"next"}
+                />
+              ) : (
+                ""
+              )}
+              {!isMobile ? (
+                <BtnSlider
+                  className={isMobile ? "off" : ""}
+                  moveSlide={!isMobile ? prevSlide : "off"}
+                  direction={"prev"}
+                />
+              ) : (
+                ""
+              )}
             </Content>
           );
         })}
