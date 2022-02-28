@@ -11,6 +11,7 @@ import Header from "../components/Header";
 import lumPhoto from "../images/lum-photo.webp";
 import Insta from "../images/ig.png"
 import "../index.css";
+import Button from "../components/Button";
 
 const AboutMe = () => {
   const [hoverOff, setHover] = useState(false);
@@ -84,6 +85,7 @@ const AboutMe = () => {
           </TextWrapperP>
         </Content>
       </Wrapper>
+
     </div>
   );
 };

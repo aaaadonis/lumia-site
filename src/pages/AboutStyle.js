@@ -56,7 +56,7 @@ export const Instagram = styled.img`
   width: 2%;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 5%;
+  margin-bottom: 40px;
   @media (max-width: 800px) {
     width: 7%;
   }
