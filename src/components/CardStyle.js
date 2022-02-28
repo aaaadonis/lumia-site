@@ -23,6 +23,9 @@ export const ImgCard = styled.img`
   width: auto;
   height: 455px;
   padding: 0px;
+  @media screen and (min-width: 1300px) {
+    height: 580px;
+  }
   @media (max-width: 800px) {
     height: 400px;
     object-fit: contain;

@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   width: 100vw;
   bottom: 30px;
   @media screen and (min-width: 1300px) {
-    bottom: 50px;
+    bottom: 40px;
   }
   @media (max-width: 800px) {
     bottom: 50px;
@@ -28,8 +28,6 @@ export const ButtonMenu = styled.button`
   border: 1.8px solid black;
   cursor: pointer;
   @media (max-width: 800px) {
-    // bottom: 25px;
-    // margin-bottom: 4%;
     padding: 0px;
     height: 15px;
     width: 15px;
