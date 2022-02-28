@@ -5,6 +5,9 @@ export const Wrapper = styled.div`
   position: fixed;
   width: 100vw;
   bottom: 30px;
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    bottom: 50px;
+  }
 `;
 
 export const Content = styled.div`

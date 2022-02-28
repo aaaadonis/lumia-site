@@ -82,15 +82,18 @@ const Card = () => {
                       handleHoverOut();
                     }
               }
+              loading="lazy"
             />
             <Text className={hoverOff ? "on-text" : "off-text"}>
               {obj.descrip}
             </Text>
             <BtnSlider
+            className={isMobile ? "off" : ""}
               moveSlide={!isMobile ? nextSlide : "off"}
               direction={"next"}
             />
             <BtnSlider
+            className={isMobile ? "off" : ""}
               moveSlide={!isMobile ? prevSlide : "off"}
               direction={"prev"}
             />
