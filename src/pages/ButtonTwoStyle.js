@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  position: relative;
+  position: sticky;
   height: 100%;
   padding: 30px 0;
 `;
@@ -20,8 +20,8 @@ export const ButtonMenu = styled.button`
   background-color: transparent;
   border: 1.8px solid black;
   cursor: pointer;
+  padding: 0px;
   @media (max-width: 800px) {
-    padding: 0px;
     height: 15px;
     width: 15px;
   }
