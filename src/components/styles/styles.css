@@ -10,6 +10,7 @@
 }
 
 .menu-item-closed {
+  pointer-events: none;
   opacity: 0;
   width: 0;
 }
