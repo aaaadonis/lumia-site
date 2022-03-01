@@ -11,7 +11,7 @@ import Header from "../components/Header";
 import lumPhoto from "../images/lum-photo.webp";
 import Insta from "../images/ig.png"
 import "../index.css";
-import Button from "../components/Button";
+import ButtonTwo from "./ButtonTwo";
 
 const AboutMe = () => {
   const [hoverOff, setHover] = useState(false);
@@ -85,7 +85,7 @@ const AboutMe = () => {
           </TextWrapperP>
         </Content>
       </Wrapper>
-      {/* <Button pages={[["Home"], ["Personal"], ["Press"]]} /> */}
+      <ButtonTwo pages={[["Home"], ["Personal"], ["Press"]]} />
     </div>
   );
 };

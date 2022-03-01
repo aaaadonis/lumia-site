@@ -19,7 +19,7 @@ import { FeaData } from "./pressdata/Features";
 import { PhoData } from "./pressdata/Photography";
 import { IntData } from "./pressdata/Interviews";
 import { HonData } from "./pressdata/Honors";
-import Button from "../components/Button";
+import ButtonTwo from "./ButtonTwo";
 import { isMobile } from "react-device-detect";
 
 
@@ -149,7 +149,7 @@ const Press = () => {
           )}
         </div>
       </Content>
-      {/* <Button pages={[["Home"], ["Personal"], ["About"]]} /> */}
+      {/* <ButtonTwo pages={[["Home"], ["Personal"], ["About"]]} /> */}
     </div>
   );
 };
