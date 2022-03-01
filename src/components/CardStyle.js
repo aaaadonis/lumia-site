@@ -24,7 +24,7 @@ export const ImgCard = styled.img`
   height: 455px;
   padding: 0px;
   @media screen and (min-width: 1300px) {
-    height: 580px;
+    height: 500px;
   }
   @media (max-width: 800px) {
     height: 400px;

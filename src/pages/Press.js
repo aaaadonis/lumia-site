@@ -20,15 +20,17 @@ import { PhoData } from "./pressdata/Photography";
 import { IntData } from "./pressdata/Interviews";
 import { HonData } from "./pressdata/Honors";
 import Button from "../components/Button";
+import { isMobile } from "react-device-detect";
+
 
 const Press = () => {
   const [sectionShowing, setSectionShowing] = useState("");
 
   const scrollToTop = () => {
-    // window.scrollTo({
-    //   top: 0,
-    //   behavior: "smooth",
-    // });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   const handleMenuClick = (section) => {
@@ -36,7 +38,9 @@ const Press = () => {
       setSectionShowing("");
     } else {
       setSectionShowing(section)
+      if(!isMobile){
       scrollToTop();
+      }
     }
   };
 
