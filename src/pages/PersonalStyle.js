@@ -22,14 +22,16 @@ export const Content = styled.div`
 `;
 
 export const ImgCard = styled.img`
-  // object-fit: contain;
   width: auto;
-  min-height: 465px;
-  max-height: 465px;
+  height: 455px;
   padding: 0px;
+  @media screen and (min-width: 1300px) {
+    height: 500px;
+  }
   @media (max-width: 800px) {
+    height: 400px;
     object-fit: contain;
-    width: 68%;
+    width: 78%;
   }
 `;
 export const Text = styled.p`
