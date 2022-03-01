@@ -67,7 +67,7 @@ const Card = () => {
           >
             <ImgCard
               src={obj.image}
-              alt="hello"
+              alt={obj.descrip}
               onMouseEnter={
                 isMobile
                   ? ""

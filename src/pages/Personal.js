@@ -70,7 +70,7 @@ const Personal = () => {
             >
               <ImgCard
                 src={obj.image}
-                alt="hello"
+                alt={obj.descrip}
                 onMouseEnter={() => {
                   handleHover();
                 }}
