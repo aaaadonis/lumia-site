@@ -31,11 +31,11 @@ export const ImgCard = styled.img`
     object-fit: contain;
     width: 78%;
   }
-  // @media (max-height: 600px) {
-  //   height: 350px;
-  //   object-fit: contain;
-  //   width: 78%;
-  // }
+  @media (max-height: 600px) {
+    height: 58vh;
+    object-fit: contain;
+    width: 78%;
+  }
 `;
 export const Text = styled.p`
   align-self: center;
