@@ -23,11 +23,11 @@ export const Content = styled.div`
 
 export const ImgCard = styled.img`
   width: auto;
-  height: 455px;
+  height: 65vh;
   padding: 0px;
-  @media screen and (min-width: 1300px) {
-    height: 500px;
-  }
+  // @media screen and (min-width: 1300px) {
+  //   height: 500px;
+  // }
   @media (max-width: 800px) {
     height: 400px;
     object-fit: contain;
