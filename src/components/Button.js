@@ -27,7 +27,7 @@ const Button = ({pages}) => {
 
           {pages.map(([page], index) => (
             <Link
-              to={page === "Work" ? `/` : `/${page}`}
+              to={page === "Home" ? `/`: `/${page}`}
               className={isOpen ? "menu-item" : "menu-item-closed"}
             >
               <MenuItem
