@@ -16,6 +16,7 @@ export const Wrapper = styled.div`
   margin-top: 2vh;
   max-width: 100vw;
   height: 18vh;
+  margin-bottom: 3vh;
   @media (max-height: 600px) {
     margin-bottom: 2vh;
   }
