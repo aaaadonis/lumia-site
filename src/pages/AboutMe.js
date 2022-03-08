@@ -85,7 +85,7 @@ const AboutMe = () => {
           </TextWrapperP>
         </Content>
       </Wrapper>
-      <ButtonTwo pages={[["Home"], ["Personal"], ["Press"]]} />
+      <ButtonTwo pages={[["Work"], ["Personal"], ["Press"]]} />
     </div>
   );
 };
