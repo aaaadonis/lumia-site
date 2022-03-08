@@ -8,7 +8,7 @@ const Images = {
   imageSeven: require("./personal/PersonalPortfolio-07.jpg"),
   imageEight: require("./personal/PersonalPortfolio-08.jpg"),
   imageNine: require("./personal/PersonalPortfolio-09.jpg"),
-  imageTen: require("./personal/PersonalPortfolio-10.jg"),
+  imageTen: require("./personal/PersonalPortfolio-10.jpg"),
   imageEleven: require("./personal/PersonalPortfolio-11.jpg"),
   imageTwelve: require("./personal/PersonalPortfolio-12.jpg"),
   imageThirteen: require("./personal/PersonalPortfolio-13.jpg"),

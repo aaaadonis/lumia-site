@@ -11,6 +11,9 @@ export const Wrapper = styled.div`
   @media (max-width: 800px) {
     bottom: 50px;
   }
+  @media screen and (min-width: 1700px) {
+    bottom: 60px;
+  }
 `;
 
 export const Content = styled.div`
