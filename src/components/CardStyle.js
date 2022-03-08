@@ -32,7 +32,7 @@ export const ImgCard = styled.img`
     width: 78%;
   }
   @media (max-height: 700px) {
-    height: 300px;
+    height: 350px;
     object-fit: contain;
     width: 78%;
   }

@@ -13,9 +13,12 @@ const rotate = keyframes`
 
 
 export const Wrapper = styled.div`
-    margin-top: 2vh;
-    max-width: 100vw;
-    height: 18vh;
+  margin-top: 2vh;
+  max-width: 100vw;
+  height: 18vh;
+  @media (max-height: 700px) {
+    margin-bottom: 2vh;
+  }
 `;
 
 export const Content = styled.div`
