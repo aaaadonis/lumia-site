@@ -84,7 +84,7 @@ const Card = () => {
               }
               loading="lazy"
             />
-            <Text className={hoverOff ? "on-text" : "off-text"}>
+            <Text className="on-text">
               {obj.descrip}
             </Text>
             { !isMobile ? 
