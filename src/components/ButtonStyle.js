@@ -5,13 +5,13 @@ export const Wrapper = styled.div`
   position: fixed;
   width: 100vw;
   bottom: 30px;
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1300px) and (max-width: 1600px) {
     bottom: 40px;
   }
   @media (max-width: 800px) {
     bottom: 50px;
   }
-  @media screen and (min-width: 1700px) {
+  @media screen and (min-width: 1600px) {
     bottom: 60px;
   }
 `;
