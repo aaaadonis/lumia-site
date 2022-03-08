@@ -23,7 +23,7 @@ export const Content = styled.div`
 
 export const ImgCard = styled.img`
   width: auto;
-  height: 68vh;
+  height: 65vh;
   padding: 0px;
   // @media screen and (min-width: 1300px) {
   //   height: 500px;
