@@ -77,6 +77,7 @@ const Fashion = () => {
                 }}
                 loading="lazy"
               />
+              <Text className="on-text">{obj.descrip}</Text>
               {!isMobile ? (
                 <BtnSlider
                   className={isMobile ? "off" : ""}

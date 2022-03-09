@@ -149,8 +149,11 @@ const Press = () => {
           )}
         </div>
       </Content>
-      {sectionShowing.length > 1 ?
-      <ButtonTwo pages={[["Home"], ["Personal"], ["About"], ["Fashion"]]} /> : ""}
+      {sectionShowing.length > 1 ? (
+        <ButtonTwo pages={[["Home"], ["Fashion"], ["Personal"], ["About"]]} />
+      ) : (
+        ""
+      )}
     </div>
   );
 };

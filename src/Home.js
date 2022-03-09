@@ -9,7 +9,14 @@ const Home = () => {
       <div>
         <Header />
         <Card />
-        <Button pages={[["Personal"], ["About"], ["Press"], ["Fashion"]]} />
+        <Button
+          pages={[
+            ["Fashion"],
+            ["Personal"],
+            ["Press"],
+            ["About"],
+          ]}
+        />
       </div>
     );
 }
