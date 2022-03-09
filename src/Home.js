@@ -6,20 +6,12 @@ import "./index.css";
 
 const Home = () => {
     return (
-        <div>
-            <Header />
-            <Card />
-            <Button
-                pages={
-                [
-                ["Personal"],
-                ["About"],
-                ["Press"],
-                ]
-            } 
-            />
-        </div>
-    )
+      <div>
+        <Header />
+        <Card />
+        <Button pages={[["Personal"], ["About"], ["Press"], ["Fashion"]]} />
+      </div>
+    );
 }
 
 export default Home

@@ -1,18 +1,16 @@
 import React, { useState } from "react";
-import { Data } from "./pressdata/PersonalData";
+import { Data } from "./pressdata/FashionData";
 import BtnSlider from "../components/BtnSlider.js";
 import Header from "../components/Header";
 import Button from "../components/Button";
-import { Content, ImgCard, Text, Wrapper } from "./PersonalStyle.js";
+import { Content, ImgCard, Text, Wrapper } from "./FashionStyle.js";
 import "../index.css";
 import { isMobile } from "react-device-detect";
 
-
-const Personal = () => {
+const Fashion = () => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [hoverOff, setHover] = useState(false);
-    const delay = 3500;
-
+  const delay = 3500;
 
   const nextSlide = () => {
     if (slideIndex !== Data.length) {
@@ -38,25 +36,25 @@ const Personal = () => {
     setHover(!hoverOff);
   };
 
-      const timeoutRef = React.useRef(null);
+  const timeoutRef = React.useRef(null);
 
-      function resetTimeout() {
-        if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
-        }
-      }
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
 
-      React.useEffect(() => {
-        resetTimeout();
-        timeoutRef.current = setTimeout(
-          () => setSlideIndex(() => nextSlide()),
-          delay
-        );
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () => setSlideIndex(() => nextSlide()),
+      delay
+    );
 
-        return () => {
-          resetTimeout();
-        };
-      }, [slideIndex]);
+    return () => {
+      resetTimeout();
+    };
+  }, [slideIndex]);
 
   return (
     <div>
@@ -101,9 +99,9 @@ const Personal = () => {
           );
         })}
       </Wrapper>
-      <Button pages={[["Home"], ["About"], ["Press"], ["Fashion"]]} />
+      <Button pages={[["Home"], ["Personal"], ["About"], ["Press"]]} />
     </div>
   );
 };
 
-export default Personal;
+export default Fashion;
