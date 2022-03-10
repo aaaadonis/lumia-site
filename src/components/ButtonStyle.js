@@ -4,12 +4,12 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: fixed;
   width: 100vw;
-  bottom: 35px;
+  bottom: 25px;
   @media screen and (min-width: 1300px) and (max-width: 1600px) {
     bottom: 40px;
   }
   @media (max-width: 800px) {
-    bottom: 60px;
+    bottom: 40px;
   }
   @media screen and (min-width: 1600px) {
     bottom: 60px;

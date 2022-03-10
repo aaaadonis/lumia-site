@@ -17,9 +17,9 @@ export const Wrapper = styled.div`
   max-width: 100vw;
   height: 18vh;
   margin-bottom: 2vh;
-//   @media (max-height: 600px) {
-//     margin-bottom: 2vh;
-//   }
+   @media (max-height: 600px) {
+     margin-bottom: 1vh;
+   }
 `;
 
 export const Content = styled.div`
