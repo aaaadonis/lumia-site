@@ -9,17 +9,9 @@ const BtnSlider = ({ direction, moveSlide }) => {
     return (
       <button
         onClick={moveSlide}
-        className={
-          isMobile
-            ? "off"
-            : direction === "next"
-            ? "btn-slide next"
-            : "btn-slide prev"
-        }
+        className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
       >
-        <img
-          src={isMobile ? "off" : direction === "next" ? rightArrow : leftArrow}
-        />
+        <img src={direction === "next" ? rightArrow : leftArrow} />
       </button>
     );
 }
