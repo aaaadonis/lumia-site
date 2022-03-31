@@ -70,7 +70,7 @@ const Personal = () => {
             >
               <ImgCard
                 src={obj.image}
-                alt={obj.descrip}
+                alt="hello"
                 onMouseEnter={() => {
                   handleHover();
                 }}
@@ -79,24 +79,8 @@ const Personal = () => {
                 }}
                 loading="lazy"
               />
-              {!isMobile ? (
-                <BtnSlider
-                  className={isMobile ? "off" : ""}
-                  moveSlide={!isMobile ? nextSlide : "off"}
-                  direction={"next"}
-                />
-              ) : (
-                ""
-              )}
-              {!isMobile ? (
-                <BtnSlider
-                  className={isMobile ? "off" : ""}
-                  moveSlide={!isMobile ? prevSlide : "off"}
-                  direction={"prev"}
-                />
-              ) : (
-                ""
-              )}
+              <BtnSlider moveSlide={nextSlide} direction={"next"} />
+              <BtnSlider moveSlide={prevSlide} direction={"prev"} />
             </Content>
           );
         })}

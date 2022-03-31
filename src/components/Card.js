@@ -67,38 +67,18 @@ const Card = () => {
           >
             <ImgCard
               src={obj.image}
-              alt={obj.descrip}
-              onMouseEnter={
-                isMobile
-                  ? ""
-                  : () => {
-                      handleHover();
-                    }
-              }
-              onMouseOut={
-                isMobile
-                  ? ""
-                  : () => {
-                      handleHoverOut();
-                    }
-              }
+              alt="hello"
+              onMouseEnter={() => {
+                handleHover();
+              }}
+              onMouseOut={() => {
+                handleHoverOut();
+              }}
               loading="lazy"
             />
-            <Text className="on-text">
-              {obj.descrip}
-            </Text>
-            { !isMobile ? 
-            <BtnSlider
-            className={isMobile ? "off" : ""}
-              moveSlide={!isMobile ? nextSlide : "off"}
-              direction={"next"}
-            /> : ""}
-            {!isMobile ?
-            <BtnSlider
-            className={isMobile ? "off" : ""}
-              moveSlide={!isMobile ? prevSlide : "off"}
-              direction={"prev"}
-            /> : ""}
+
+            <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"} />
           </Content>
         );
       })}
