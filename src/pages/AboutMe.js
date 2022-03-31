@@ -8,8 +8,8 @@ import {
   Instagram,
   TextWrapperP} from "./AboutStyle";
 import Header from "../components/Header";
-import lumPhoto from "../images/lum-photo.jpg";
-import Insta from "../images/ig.png"
+import lumPhoto from "../images/lum-photo.webp";
+import Insta from "../images/ig.webp";
 import "../index.css";
 import ButtonTwo from "./ButtonTwo";
 

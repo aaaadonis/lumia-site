@@ -1,14 +1,14 @@
 const Images = {
-  imageOne: require("./1.jpg"),
-  imageTwo: require("./2.jpeg"),
-  imageThree: require("./3.jpeg"),
-  imageFour: require("./4.jpg"),
-  imageFive: require("./5.jpg"),
-  imageSix: require("./6.jpeg"),
-  imageSeven: require("./7.jpeg"),
-  imageEight: require("./8.jpeg"),
-  imageNine: require("./9.jpeg"),
-  imageTen: require("./10.jpg"),
+  imageOne: require("./1.webp"),
+  imageTwo: require("./2.webp"),
+  imageThree: require("./3.webp"),
+  imageFour: require("./4.webp"),
+  imageFive: require("./5.webp"),
+  imageSix: require("./6.webp"),
+  imageSeven: require("./7.webp"),
+  imageEight: require("./8.webp"),
+  imageNine: require("./9.webp"),
+  imageTen: require("./10.webp"),
 };
 
 const Data = [
