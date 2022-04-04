@@ -24,6 +24,7 @@
   opacity: 0;
   padding: 0px;
   display: hidden;
+  outline: none;
 }
 
 
@@ -32,16 +33,21 @@
   height: 15px;
   pointer-events: none;
   opacity: 1;
+  outline: none;
 }
 .prev {
   top: 50%;
   left: 40px;
   transform: translateY(-60%);
+  outline: none;
+  display: hidden;
 }
 .next {
   top: 50%;
   right: 40px;
   transform: translateY(-60%);
+  outline: none;
+  display: hidden;
 }
 
 .off{
