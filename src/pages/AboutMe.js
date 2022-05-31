@@ -70,9 +70,9 @@ const AboutMe = () => {
             </Text>
             <Text className="ventures">
               Selected clients include Bloomberg Businessweek, Adidas, Netflix,
-              Converse, Diesel, Vice, Vogue, Interview Magazine, i-D Magazine,
-              Galore Magazine, DROME Magazine, Milk, Nylon Japan, and IMG
-              Models.
+              Nike, Converse, Diesel, Vice, Vogue, Interview Magazine, i-D
+              Magazine, Galore Magazine, DROME Magazine, Milk, Nylon Japan, and
+              IMG Models.
             </Text>
             <TextWrapper>
               <Text>
