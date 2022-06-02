@@ -6,11 +6,11 @@ import { isMobile } from "react-device-detect";
 
 const BtnSlider = ({ direction, moveSlide }) => {
     return (
-      <button
+      <div
         onClick={moveSlide}
         className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
       >
-      </button>
+      </div>
     );
 }
 
