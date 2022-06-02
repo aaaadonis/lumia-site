@@ -3,20 +3,12 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Button from './components/Button'
 import "./index.css";
+import Fashion from './pages/Fashion';
 
 const Home = () => {
     return (
       <div>
-        <Header />
-        <Card />
-        <Button
-          pages={[
-            ["Fashion"],
-            ["Personal"],
-            ["Press"],
-            ["About"],
-          ]}
-        />
+        <Fashion />
       </div>
     );
 }

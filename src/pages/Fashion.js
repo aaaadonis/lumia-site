@@ -86,7 +86,7 @@ const Fashion = () => {
           );
         })}
       </Wrapper>
-      <Button pages={[["Home"], ["Personal"], ["About"], ["Press"]]} />
+      <Button pages={[["Personal"], ["About"], ["Press"]]} />
     </div>
   );
 };
