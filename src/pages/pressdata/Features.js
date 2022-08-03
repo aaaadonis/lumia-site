@@ -1,6 +1,30 @@
 const FeaData = [
   {
+    id: 0,
+    image: "",
+    alt: "Vogue",
+    descrip:
+      "Bella Hadid, Jen Batchelor, and Selby Drummond Fete Bumble x Kin Euphorics’ Latest Launch in Montauk (Web)",
+    isOn: true,
+    year: "2022",
+  },
+  {
     id: 1,
+    image: "",
+    alt: "The Impression",
+    descrip:
+      "Miu Miu Celebrated Its Fall 2022 Collection with a Tennis Club Takeover (Web)",
+    isOn: false,
+  },
+  {
+    id: 2,
+    image: "",
+    alt: "V Magazine",
+    descrip: "Miu Miu Serves Looks at the West Side Tennis Club",
+    isOn: false,
+  },
+  {
+    id: 3,
     image: "",
     alt: "dsection Magazine",
     descrip: "Sharing Voices (Print)",
@@ -8,28 +32,28 @@ const FeaData = [
     year: "2021",
   },
   {
-    id: 2,
+    id: 4,
     image: "",
     alt: "Nylon Japan",
     descrip: "City Girls (Print)",
     isOn: false,
   },
   {
-    id: 3,
+    id: 5,
     image: "",
     alt: "Fashionography",
     descrip: "Lumia Nocito for The Fashionography (Web)",
     isOn: false,
   },
   {
-    id: 4,
+    id: 6,
     image: "",
     alt: "TimeOut",
     descrip: "Six must-see public art installations of Art Basel 2021 (Web)",
     isOn: false,
   },
   {
-    id: 5,
+    id: 7,
     image: "",
     alt: "The Daily Front Row",
     descrip:
@@ -37,7 +61,7 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 6,
+    id: 8,
     image: "",
     alt: "Haute Living",
     descrip:
@@ -45,14 +69,14 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 7,
+    id: 9,
     image: "",
     alt: "Purple Fashion Magazine",
     descrip: `“Daisies,” an Exhibition Curated by Paige Silver at The Standard, Miami (Web)`,
     isOn: false,
   },
   {
-    id: 8,
+    id: 10,
     image: "",
     alt: "Cosmopolitan",
     descrip:
@@ -60,35 +84,35 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 9,
+    id: 11,
     image: "",
     alt: "Vogue Hong Kong",
     descrip: "Burberry FW21 (Web)",
     isOn: false,
   },
   {
-    id: 10,
+    id: 12,
     image: "",
     alt: "About Face Beauty",
     descrip: "About Face Beauty x Dickies (Web)",
     isOn: false,
   },
   {
-    id: 11,
+    id: 13,
     image: "",
     alt: "i-D Magazine",
     descrip: "5 Asian Americans on Disrupting the Creative Industries (Web)",
     isOn: false,
   },
   {
-    id: 12,
+    id: 14,
     image: "",
     alt: "Office Magazine",
     descrip: "Artifact (Web)",
     isOn: false,
   },
   {
-    id: 13,
+    id: 15,
     image: "",
     alt: "Allure",
     descrip: "Glitter is Good (Print)",
@@ -96,63 +120,63 @@ const FeaData = [
     year: "2020",
   },
   {
-    id: 14,
+    id: 16,
     image: "",
     alt: "dsection Magazine",
     descrip: "Amalie Gassmann for dsection (Print)",
     isOn: false,
   },
   {
-    id: 15,
+    id: 17,
     image: "",
     alt: "i-D Magazine",
     descrip: "There’s no place like Café Forgot (Web)",
     isOn: false,
   },
   {
-    id: 16,
+    id: 18,
     image: "",
     alt: "Models.com",
     descrip: "F/W 2020 Show Package (Women) (Web)",
     isOn: false,
   },
   {
-    id: 17,
+    id: 19,
     image: "",
     alt: "The Quarantine Diares",
     descrip: "Scan Me (Web)",
     isOn: false,
   },
   {
-    id: 18,
+    id: 20,
     image: "",
     alt: "Office Magazine",
     descrip: "Kim Shui F/W ’20 (Web)",
     isOn: false,
   },
   {
-    id: 17,
+    id: 21,
     image: "",
     alt: "WWD",
     descrip: "Backstage at Kim Shui RTW Fall 2020 (Web)",
     isOn: false,
   },
   {
-    id: 18,
+    id: 22,
     image: "",
     alt: "Vogue Runway",
     descrip: "Kim Shui Fall 2020 (Web)",
     isOn: false,
   },
   {
-    id: 19,
+    id: 23,
     image: "",
     alt: "All Saints",
     descrip: "How To Make a Face Mask (Web)",
     isOn: false,
   },
   {
-    id: 20,
+    id: 24,
     image: "",
     alt: "Cosmopolitan",
     descrip: "The Millenial Sex Recession (Print)",
@@ -160,21 +184,21 @@ const FeaData = [
     year: "2019",
   },
   {
-    id: 21,
+    id: 25,
     image: "",
     alt: "The Cut",
     descrip: "The Best Celebrity Party Looks of the Week (Web)",
     isOn: false,
   },
   {
-    id: 22,
+    id: 26,
     image: "",
     alt: "The Cut",
     descrip: "Maripol Captures New York’s Next Generation (Web)",
     isOn: false,
   },
   {
-    id: 23,
+    id: 27,
     image: "",
     alt: "i-D Magazine",
     descrip:
@@ -182,7 +206,7 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 24,
+    id: 28,
     image: "",
     alt: "Dazed",
     descrip:
@@ -190,7 +214,7 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 25,
+    id: 29,
     image: "",
     alt: "Good Morning America",
     descrip:
@@ -198,14 +222,14 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 26,
+    id: 30,
     image: "",
     alt: "Vogue Runway",
     descrip: "Sandy Liang (Web)",
     isOn: false,
   },
   {
-    id: 27,
+    id: 31,
     image: "",
     alt: "Cultured Mag",
     descrip:
@@ -213,7 +237,7 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 28,
+    id: 32,
     image: "",
     alt: "A Magazine Curated by Simone Rocha",
     descrip: "Braiding Hair (Print)",
@@ -221,14 +245,14 @@ const FeaData = [
     year: "2018",
   },
   {
-    id: 29,
+    id: 33,
     image: "",
     alt: "Airwalk",
     descrip: "Reinventing The Classics (Print)",
     isOn: false,
   },
   {
-    id: 30,
+    id: 34,
     image: "",
     alt: "The Cut",
     descrip:
@@ -236,14 +260,14 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 31,
+    id: 35,
     image: "",
     alt: "Hunger TV",
     descrip: "Braiding Hair (Web)",
     isOn: false,
   },
   {
-    id: 32,
+    id: 36,
     image: "",
     alt: "Highsnobiety",
     descrip:
@@ -251,14 +275,14 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 33,
+    id: 37,
     image: "",
     alt: "Warpweb",
     descrip: "Manhattan Portage's 19SS latest LOOK is released! (Web)",
     isOn: false,
   },
   {
-    id: 34,
+    id: 38,
     image: "",
     alt: "Hypebeast",
     descrip:
@@ -266,28 +290,28 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 35,
+    id: 39,
     image: "",
     alt: "Hypebae",
     descrip: `Opening Ceremony x Vans Cover the OG Slip-On LX in a "Floral Noir" Fuzz (Web)`,
     isOn: false,
   },
   {
-    id: 36,
+    id: 40,
     image: "",
     alt: "Moose Knuckles",
     descrip: "October’s Sunshine Girl of The Month: Lumia Nocito (Web)",
     isOn: false,
   },
   {
-    id: 37,
+    id: 41,
     image: "",
     alt: "Refinery29",
     descrip: "30 Instagram-Worthy Beauty Looks To Try This April (Web)",
     isOn: false,
   },
   {
-    id: 38,
+    id: 42,
     image: "",
     alt: "W Magazine",
     descrip: "10 Ways to Wear Balmain’s Racy Military-Inspired Look (Web)",
@@ -295,28 +319,28 @@ const FeaData = [
     year: "2017",
   },
   {
-    id: 39,
+    id: 43,
     image: "",
     alt: "W Magazine",
     descrip: "There’s No Wrong Way to Wear a Floral Dress (Web)",
     isOn: false,
   },
   {
-    id: 40,
+    id: 44,
     image: "",
     alt: "Ray-Ban",
     descrip: "REMIX LifeCode Campaign (Web)",
     isOn: false,
   },
   {
-    id: 41,
+    id: 45,
     image: "",
     alt: "Refinery29",
     descrip: "31 Perfect Looks To Copy This October (Web)",
     isOn: false,
   },
   {
-    id: 42,
+    id: 46,
     image: "",
     alt: "Refinery29",
     descrip:
@@ -324,7 +348,7 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 43,
+    id: 47,
     image: "",
     alt: "Vogue Italia",
     descrip: `Petra Collins, "Gang" (Print)`,
@@ -332,7 +356,7 @@ const FeaData = [
     year: "2016",
   },
   {
-    id: 44,
+    id: 48,
     image: "",
     alt: "The Cut",
     descrip:
@@ -340,14 +364,14 @@ const FeaData = [
     isOn: false,
   },
   {
-    id: 45,
+    id: 49,
     image: "",
     alt: "W Magazine",
     descrip: "You’ll Want To Follow Everyone In The New Adidas Campaign  (Web)",
     isOn: false,
   },
   {
-    id: 46,
+    id: 50,
     image: "",
     alt: "Flare Magazine",
     descrip: "10 Under-The-Radar Artsy Cool Kids You Need to Follow (Web)",

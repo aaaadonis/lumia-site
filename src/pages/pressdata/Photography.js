@@ -1,65 +1,86 @@
 const PhoData = [
   {
-    id: 1,
+    id: 0,
     image: "",
-    alt: "Interview Magazine",
-    descrip:
-      "Achilles Ion Gabriel Is Serving Up a Surreal SS22 Collection for CAMPERLAB",
+    alt: "Office Magazine",
+    descrip: "Down the Rabbit Hole with Lindsay Vrckovnik (Web)",
     isOn: true,
     year: "2022",
   },
   {
+    id: 1,
+    image: "",
+    alt: "Nordstrom x Givenchy x Disney",
+    descrip: "101 Dalmatians Campaign (Web)",
+    isOn: false,
+  },
+  {
     id: 2,
     image: "",
-    alt: "Nylon Japan",
-    descrip: "City Girls (Print)",
+    alt: "Abrand",
+    descrip: "Denim Campaign (Web)",
     isOn: false,
-    year: "2021",
   },
   {
     id: 3,
+    image: "",
+    alt: "Interview Magazine",
+    descrip:
+      "Achilles Ion Gabriel Is Serving Up a Surreal SS22 Collection for CAMPERLAB",
+    isOn: false,
+  },
+  {
+    id: 4,
+    image: "",
+    alt: "Nylon Japan",
+    descrip: "City Girls (Print)",
+    isOn: true,
+    year: "2021",
+  },
+  {
+    id: 5,
     image: "",
     alt: "Mission Statement Magazine",
     descrip: "Chi Ossé for President (Print)",
     isOn: false,
   },
   {
-    id: 4,
+    id: 6,
     image: "",
     alt: "Fletcher",
     descrip: "Girls Girls Girls (Single Cover)",
     isOn: false,
   },
   {
-    id: 5,
+    id: 7,
     image: "",
     alt: "Nike",
     descrip: "New York Nature (Web)",
     isOn: false,
   },
   {
-    id: 6,
+    id: 8,
     image: "",
     alt: "Nike",
     descrip: "New York City Treasure Hunt (Web)",
     isOn: false,
   },
   {
-    id: 7,
+    id: 9,
     image: "",
     alt: "TMRW Magazine",
     descrip: "Connor Franta Shares His World (Web)",
     isOn: false,
   },
   {
-    id: 8,
+    id: 10,
     image: "",
     alt: "Coveteur",
     descrip: "Endless Summer (Web)",
     isOn: false,
   },
   {
-    id: 9,
+    id: 11,
     image: "",
     alt: "Dazed",
     descrip:
@@ -68,7 +89,7 @@ const PhoData = [
     year: "2020",
   },
   {
-    id: 10,
+    id: 12,
     image: "",
     alt: "Wonderland",
     descrip:
@@ -76,7 +97,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 11,
+    id: 13,
     image: "",
     alt: "E News",
     descrip:
@@ -84,14 +105,14 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 12,
+    id: 14,
     image: "",
     alt: "All Saints",
     descrip: "Socials Shoot (Web)",
     isOn: false,
   },
   {
-    id: 13,
+    id: 15,
     image: "",
     alt: "Bloomberg Businessweek",
     descrip:
@@ -100,35 +121,35 @@ const PhoData = [
     year: "2019",
   },
   {
-    id: 14,
+    id: 16,
     image: "",
     alt: "Adidas x Concepts",
     descrip: "Adidas Ozweego (Print)",
     isOn: false,
   },
   {
-    id: 15,
+    id: 17,
     image: "",
     alt: "Diesel",
     descrip: "Gabriel-Kane Day-Lewis (Print)",
     isOn: false,
   },
   {
-    id: 16,
+    id: 18,
     image: "",
     alt: "Elle Mexico",
     descrip: "Elle Apuesta Por Tuza (Print)",
     isOn: false,
   },
   {
-    id: 17,
+    id: 19,
     image: "",
     alt: "Nike",
     descrip: "Lumia Nocito: Balance (Web)",
     isOn: false,
   },
   {
-    id: 18,
+    id: 20,
     image: "",
     alt: "Vogue",
     descrip:
@@ -136,14 +157,14 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 17,
+    id: 21,
     image: "",
     alt: "Wonderland",
     descrip: "Premiere: Evan Giia (Web)",
     isOn: false,
   },
   {
-    id: 18,
+    id: 22,
     image: "",
     alt: "i-D Magazine",
     descrip:
@@ -151,7 +172,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 19,
+    id: 23,
     image: "",
     alt: "Dazed Beauty",
     descrip:
@@ -159,42 +180,42 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 20,
+    id: 24,
     image: "",
     alt: "Cultured Magazine",
     descrip: "Tia Adeola Says The Ruff Is Back (Web)",
     isOn: false,
   },
   {
-    id: 21,
+    id: 25,
     image: "",
     alt: "Cultured Magazine",
     descrip: "The Old School Meets The New With Sophia Wilson (Web)",
     isOn: false,
   },
   {
-    id: 22,
+    id: 26,
     image: "",
     alt: "V Magazine",
     descrip: "Susan Alexandra Show was NYFW ‘19’s Most Fun (Web)",
     isOn: false,
   },
   {
-    id: 23,
+    id: 27,
     image: "",
     alt: "Paper Magazine",
     descrip: "We're Here for Bagels and Drag Queens at Fashion Week (Web)",
     isOn: false,
   },
   {
-    id: 24,
+    id: 28,
     image: "",
     alt: "Flaunt Magazine",
     descrip: "Simone Rocha for Hauser & Wirth Louise Bourgeois Earrings (Web)",
     isOn: false,
   },
   {
-    id: 25,
+    id: 29,
     image: "",
     alt: "Felt USA",
     descrip: "F/W 2018 (Web)",
@@ -202,21 +223,21 @@ const PhoData = [
     year: "2018",
   },
   {
-    id: 26,
+    id: 30,
     image: "",
     alt: "Converse",
     descrip: "Ant Blue Jr. (Print)",
     isOn: false,
   },
   {
-    id: 27,
+    id: 31,
     image: "",
     alt: "Vogue",
     descrip: `“I Want People to Feel Connected”—Simone Rocha Constructs a Beautiful, Universal World (Web)`,
     isOn: false,
   },
   {
-    id: 28,
+    id: 32,
     image: "",
     alt: "Oyster Magazine",
     descrip:
@@ -224,7 +245,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 29,
+    id: 33,
     image: "",
     alt: "Dazed",
     descrip:
@@ -232,7 +253,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 30,
+    id: 34,
     image: "",
     alt: "Glamour Magazine",
     descrip:
@@ -240,14 +261,14 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 31,
+    id: 35,
     image: "",
     alt: "Garage Magazine",
     descrip: "Two Thumbs Up for All the Gloves at New York Fashion Week (Web)",
     isOn: false,
   },
   {
-    id: 32,
+    id: 36,
     image: "",
     alt: "WWD",
     descrip:
@@ -255,7 +276,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 33,
+    id: 37,
     image: "",
     alt: "i-D Magazine",
     descrip:
@@ -263,14 +284,14 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 34,
+    id: 38,
     image: "",
     alt: "Paper Magazine",
     descrip: "Step into Alice Longyu Gao's Surreal World in New Pop-Up (Web)",
     isOn: false,
   },
   {
-    id: 35,
+    id: 39,
     image: "",
     alt: "Complex",
     descrip:
@@ -278,35 +299,35 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 36,
+    id: 40,
     image: "",
     alt: "Sukeban Magazine",
     descrip: "Nowhere FC by Lumia Nocito (Web)",
     isOn: false,
   },
   {
-    id: 37,
+    id: 41,
     image: "",
     alt: "Who What Wear",
     descrip: "It Girl, It Brand: Brigette Lundy-Paine and Collina Strada (Web)",
     isOn: false,
   },
   {
-    id: 38,
+    id: 42,
     image: "",
     alt: "Heroine",
     descrip: "Slashed by Tia x Heroine (Web)",
     isOn: false,
   },
   {
-    id: 39,
+    id: 43,
     image: "",
     alt: "Rag & Bone",
     descrip: "Nowhere FC (Web)",
     isOn: false,
   },
   {
-    id: 40,
+    id: 44,
     image: "",
     alt: "DRØME Magazine Volume II",
     descrip: "Breaking Barriers (Cover Story, Print)",
@@ -314,14 +335,14 @@ const PhoData = [
     year: "2017",
   },
   {
-    id: 41,
+    id: 45,
     image: "",
     alt: "Glamour Magazine",
     descrip: `10 Fashion Influencers on How They're Redefining "Sexy" (Print)`,
     isOn: false,
   },
   {
-    id: 42,
+    id: 46,
     image: "",
     alt: "Womb Global",
     descrip:
@@ -329,7 +350,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 43,
+    id: 47,
     image: "",
     alt: "Dazed",
     descrip:
@@ -337,7 +358,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 44,
+    id: 48,
     image: "",
     alt: "WGSN",
     descrip:
@@ -345,7 +366,7 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 45,
+    id: 49,
     image: "",
     alt: "Galore Magazine",
     descrip:
@@ -353,21 +374,21 @@ const PhoData = [
     isOn: false,
   },
   {
-    id: 46,
+    id: 50,
     image: "",
     alt: "Sukeban Magazine",
     descrip: "Unseen by Lumia Nocito (Web)",
     isOn: false,
   },
   {
-    id: 47,
+    id: 41,
     image: "",
     alt: "Soccer Bible",
     descrip: "Nowhere FC Present the Football Concierge Test Lab (Web)",
     isOn: false,
   },
   {
-    id: 48,
+    id: 52,
     image: "",
     alt: "Nu Mode Magazine",
     descrip: `"Visuals" Edition #16 The Spring Summer Issue, These Thoughts Behind Her Journal (Print)`,
@@ -375,14 +396,14 @@ const PhoData = [
     year: "2016",
   },
   {
-    id: 49,
+    id: 53,
     image: "",
     alt: "Juxtapoz Magazine",
     descrip: "Lumia Nocito’s New York (Web)",
     isOn: false,
   },
   {
-    id: 50,
+    id: 54,
     image: "",
     alt: "Milk",
     descrip: "What It’s Like To Get Painted By Beyonce’s Fave Artist (Web)",

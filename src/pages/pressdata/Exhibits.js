@@ -10,7 +10,7 @@ const ExhData = [
   {
     id: 2,
     image: "",
-    alt: "Paige Silveria",
+    alt: "Basic Space",
     descrip: "Daises, New York City",
     isOn: false,
   },
