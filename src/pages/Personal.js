@@ -11,7 +11,7 @@ import { isMobile } from "react-device-detect";
 const Personal = () => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [hoverOff, setHover] = useState(false);
-    const delay = 3500;
+    const delay = 4000;
 
 
   const nextSlide = () => {
