@@ -85,7 +85,7 @@ const Personal = () => {
           );
         })}
       </Wrapper>
-      <Button pages={[["Home"], ["Fashion"], ["Press"], ["About"]]} />
+      <Button pages={[["Home"], ["Press"], ["About"]]} />
     </div>
   );
 };
