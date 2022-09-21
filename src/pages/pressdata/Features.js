@@ -44,13 +44,13 @@ const FeaData = [
       "Miu Miu Celebrated Its Fall 2022 Collection with a Tennis Club Takeover (Web)",
     isOn: false,
   },
-  {
-    id: 6,
-    image: "",
-    alt: "V Magazine",
-    descrip: "Miu Miu Serves Looks at the West Side Tennis Club",
-    isOn: false,
-  },
+  // {
+  //   id: 6,
+  //   image: "",
+  //   alt: "V Magazine",
+  //   descrip: "Miu Miu Serves Looks at the West Side Tennis Club",
+  //   isOn: false,
+  // },
   {
     id: 7,
     image: "",
