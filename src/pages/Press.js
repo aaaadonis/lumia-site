@@ -23,7 +23,7 @@ import ButtonTwo from "./ButtonTwo";
 import { isMobile } from "react-device-detect";
 
 
-const Press = () => {
+const CV = () => {
   const [sectionShowing, setSectionShowing] = useState("");
 
   const scrollToTop = () => {
@@ -158,4 +158,4 @@ const Press = () => {
   );
 };
 
-export default Press;
+export default CV;

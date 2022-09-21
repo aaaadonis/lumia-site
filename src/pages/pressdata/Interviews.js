@@ -2,10 +2,17 @@ const IntData = [
   {
     id: 1,
     image: "",
+    alt: "The Fashionography",
+    descrip: "Lumia Nocito for The Fashionography (Web)",
+    isOn: true,
+    year: "2021",
+  },
+  {
+    id: 1,
+    image: "",
     alt: "dsection Magazine",
     descrip: "Sharing Voices (Print)",
     isOn: true,
-    year: "2021",
   },
   {
     id: 2,
@@ -268,8 +275,7 @@ const IntData = [
     id: 37,
     image: "",
     alt: "Refinery29",
-    descrip:
-      "The Z List: This Is How New York Teens Actually Dress (Web)",
+    descrip: "The Z List: This Is How New York Teens Actually Dress (Web)",
     isOn: false,
   },
   {

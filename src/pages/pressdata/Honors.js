@@ -1,6 +1,14 @@
 
 const HonData = [
   {
+    id: 0,
+    image: "",
+    alt: "CFDA",
+    descrip: "Member of 2022 CFDA Fashion Awards Guild (Web)",
+    isOn: true,
+    year: "2022",
+  },
+  {
     id: 1,
     image: "",
     alt: "CFDA",
